@@ -1,0 +1,16 @@
+D:\Programming\Orphanage\OldOrphanage\OldOrphanage\obj\x86\Debug\OldOrphanage.Resources.resources
+D:\Programming\Orphanage\OldOrphanage\OldOrphanage\bin\Debug\OldOrphanage.exe
+D:\Programming\Orphanage\OldOrphanage\OldOrphanage\bin\Debug\OldOrphanage.pdb
+D:\Programming\Orphanage\OldOrphanage\OldOrphanage\bin\Debug\OldOrphanage.xml
+D:\Programming\Orphanage\OldOrphanage\OldOrphanage\obj\x86\Debug\OldOrphanage.exe
+D:\Programming\Orphanage\OldOrphanage\OldOrphanage\obj\x86\Debug\OldOrphanage.xml
+D:\Programming\Orphanage\OldOrphanage\OldOrphanage\obj\x86\Debug\OldOrphanage.pdb
+D:\Programming\Orphanage\OldOrphanage\OldOrphanage\bin\Debug\OldOrphanage.exe.config
+D:\Programming\Orphanage\OldOrphanage\OldOrphanage\bin\Debug\OldODB.dll
+D:\Programming\Orphanage\OldOrphanage\OldOrphanage\bin\Debug\OldODB.pdb
+D:\Programming\Orphanage\OldOrphanage\OldOrphanage\bin\Debug\COWTranslation.dll
+D:\Programming\Orphanage\OldOrphanage\OldOrphanage\bin\Debug\COWTranslation.pdb
+D:\Programming\Orphanage\OldOrphanage\OldOrphanage\bin\Debug\ATDFormater.dll
+D:\Programming\Orphanage\OldOrphanage\OldOrphanage\bin\Debug\ATDFormater.pdb
+D:\Programming\Orphanage\OldOrphanage\OldOrphanage\obj\x86\Debug\OldOrphanage.vbprojResolveAssemblyReference.cache
+D:\Programming\Orphanage\OldOrphanage\OldOrphanage\obj\x86\Debug\OldOrphanage.vbproj.GenerateResource.Cache

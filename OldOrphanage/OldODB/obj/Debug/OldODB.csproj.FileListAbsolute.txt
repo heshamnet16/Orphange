@@ -1,0 +1,5 @@
+D:\Programming\Orphanage\OldOrphanage\OldODB\bin\Debug\OldODB.dll
+D:\Programming\Orphanage\OldOrphanage\OldODB\bin\Debug\OldODB.pdb
+D:\Programming\Orphanage\OldOrphanage\OldODB\obj\Debug\OldODB.dll
+D:\Programming\Orphanage\OldOrphanage\OldODB\obj\Debug\OldODB.pdb
+D:\Programming\Orphanage\OldOrphanage\OldODB\obj\Debug\OldODB.csprojResolveAssemblyReference.cache
