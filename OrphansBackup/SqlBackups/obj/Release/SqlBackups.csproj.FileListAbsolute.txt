@@ -1,0 +1,10 @@
+D:\Programming\Orphanage\OrphansBackup\SqlBackups\bin\Release\SqlBackups.dll
+D:\Programming\Orphanage\OrphansBackup\SqlBackups\bin\Release\SqlBackups.pdb
+D:\Programming\Orphanage\OrphansBackup\SqlBackups\obj\Release\SqlBackups.csprojResolveAssemblyReference.cache
+D:\Programming\Orphanage\OrphansBackup\SqlBackups\obj\Release\SqlBackups.dll
+D:\Programming\Orphanage\OrphansBackup\SqlBackups\obj\Release\SqlBackups.pdb
+F:\Programming\Orphanage\OrphansBackup\SqlBackups\bin\Release\SqlBackups.dll
+F:\Programming\Orphanage\OrphansBackup\SqlBackups\bin\Release\SqlBackups.pdb
+F:\Programming\Orphanage\OrphansBackup\SqlBackups\obj\Release\SqlBackups.dll
+F:\Programming\Orphanage\OrphansBackup\SqlBackups\obj\Release\SqlBackups.pdb
+F:\Programming\Orphanage\OrphansBackup\SqlBackups\obj\Release\SqlBackups.csprojResolveAssemblyReference.cache

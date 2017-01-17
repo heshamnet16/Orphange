@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Forms>
+  <Form name="FrmFathers">
+    <Size Height="401" Width="896" />
+    <location X="26" Y="26" />
+    <WindowState>0</WindowState>
+    <Font Italic="False" name="Tahoma" bold="False" size="8" />
+  </Form>
+  <Form name="frmOrphans">
+    <Size Height="557" Width="1092" />
+    <location X="146" Y="24" />
+    <WindowState>0</WindowState>
+    <Font Italic="False" name="Segoe UI" bold="False" size="8.25" />
+  </Form>
+  <Form name="FrmSupporters">
+    <Size Height="434" Width="1165" />
+    <location X="111" Y="80" />
+    <WindowState>0</WindowState>
+    <Font Italic="False" name="Segoe UI" bold="False" size="8.25" />
+  </Form>
+  <Form name="FrmFamiles">
+    <Size Height="431" Width="1045" />
+    <location X="181" Y="61" />
+    <WindowState>0</WindowState>
+    <Font Italic="False" name="Segoe UI" bold="False" size="8.25" />
+  </Form>
+  <Form name="FrmFatherChooser">
+    <Size Height="370" Width="497" />
+    <location X="26" Y="26" />
+    <WindowState>0</WindowState>
+    <Font Italic="False" name="Segoe UI" bold="False" size="8.25" />
+  </Form>
+</Forms>

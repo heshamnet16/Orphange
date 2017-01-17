@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace ="Timing.schedule" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Schedule">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="IsON" />
+        <xs:element name="NextDate" />
+        <xs:element name="IsWeekly" />
+        <xs:element name="IsDaily" />
+        <xs:element name="IsMonthly" />
+        <xs:element name="OnSatrday" />
+        <xs:element name="OnSunday" />
+        <xs:element name="OnMonday" />
+        <xs:element name="OnTuesday" />
+        <xs:element name="OnWednesday" />
+        <xs:element name="OnThursday" />
+        <xs:element name="OnFriday" />
+        <xs:element name="Setting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MaxCopies" />
+              <xs:element name="ReplaceOldDbs" />
+              <xs:element name="FileName" />
+              <xs:element name="FolderName" />
+              <xs:element name="MakeAFolderDate" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="xmls" type="xs:string" use="required" />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,23 @@
+﻿<RadGridView ShowGroupPanel="False" ReadOnly="True" EnterKeyMode="EnterMovesToNextRow" CausesValidation="False" BackColor="191, 219, 255" ForeColor="Black" Font="Segoe UI, 8.25pt" AutoScroll="True" Cursor="Default" RightToLeft="Yes" TabIndex="3" ImeMode="NoControl">
+  <MasterTemplate MultiSelect="True" ClipboardCopyMode="EnableAlwaysIncludeHeaderText" SelectLastAddedRow="False" ShowFilterCellOperatorText="False" EnableAlternatingRowColor="True" AllowEditRow="False" AllowColumnHeaderContextMenu="False" AllowDeleteRow="False" AllowAddNewRow="False" EnableGrouping="False" EnableFiltering="True">
+    <Columns>
+      <Telerik.WinControls.UI.GridViewDecimalColumn DecimalPlaces="0" Width="31" Name="ID" IsVisible="True" HeaderText="الرقم" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="206" Name="Name" IsVisible="True" HeaderText="الاسم" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="138" Name="BoxName" IsVisible="True" HeaderText="الحساب" />
+      <Telerik.WinControls.UI.GridViewDecimalColumn ThousandsSeparator="True" FormatString="{0:F2}" Width="53" Name="Amount" IsVisible="True" HeaderText="المبلغ" />
+      <Telerik.WinControls.UI.GridViewDecimalColumn DecimalPlaces="0" Width="104" Name="OrphansNum" SortOrder="Descending" IsVisible="True" HeaderText="عدد الأيتام المكفولين" />
+      <Telerik.WinControls.UI.GridViewDecimalColumn DecimalPlaces="0" Width="109" Name="FamiliesNum" IsVisible="True" HeaderText="عدد العائلات المكفولة" />
+      <Telerik.WinControls.UI.GridViewCheckBoxColumn ThreeState="True" Width="38" Name="Is_Still_Suppo" IsVisible="True" HeaderText="ملتزم" />
+      <Telerik.WinControls.UI.GridViewCheckBoxColumn Width="38" Name="Is_Monthly_sup" IsVisible="True" HeaderText="شهري" />
+      <Telerik.WinControls.UI.GridViewCheckBoxColumn Width="51" Name="Is_Family_Sup" IsVisible="True" HeaderText="عائلات فقط" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="34" Name="Address" IsVisible="False" HeaderText="العنوان" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="43" Name="Note" IsVisible="False" HeaderText="ملاحظات" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="58" Name="UserName" IsVisible="False" HeaderText="اسم المستخدم" />
+      <Telerik.WinControls.UI.GridViewDateTimeColumn Width="60" Name="RegDate" IsVisible="False" HeaderText="تاريخ التسجيل" />
+      <Telerik.WinControls.UI.GridViewDecimalColumn DecimalPlaces="0" Name="Color_Mark" VisibleInColumnChooser="False" IsVisible="False" HeaderText="ColorMark" />
+    </Columns>
+    <SortDescriptors>
+      <Telerik.WinControls.Data.SortDescriptor PropertyName="OrphansNum" Direction="Descending" />
+    </SortDescriptors>
+  </MasterTemplate>
+</RadGridView>

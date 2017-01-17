@@ -1,0 +1,7 @@
+c:\users\hesham\documents\visual studio 2010\Projects\OrphansBackup\MakeBackup\bin\Debug\MakeBackup.exe
+c:\users\hesham\documents\visual studio 2010\Projects\OrphansBackup\MakeBackup\bin\Debug\MakeBackup.pdb
+c:\users\hesham\documents\visual studio 2010\Projects\OrphansBackup\MakeBackup\bin\Debug\SqlBackups.dll
+c:\users\hesham\documents\visual studio 2010\Projects\OrphansBackup\MakeBackup\bin\Debug\SqlBackups.pdb
+c:\users\hesham\documents\visual studio 2010\Projects\OrphansBackup\MakeBackup\obj\x86\Debug\MakeBackup.csprojResolveAssemblyReference.cache
+c:\users\hesham\documents\visual studio 2010\Projects\OrphansBackup\MakeBackup\obj\x86\Debug\MakeBackup.exe
+c:\users\hesham\documents\visual studio 2010\Projects\OrphansBackup\MakeBackup\obj\x86\Debug\MakeBackup.pdb

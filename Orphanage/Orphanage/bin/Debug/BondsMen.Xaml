@@ -1,0 +1,18 @@
+﻿<RadGridView ShowGroupPanel="False" EnterKeyMode="EnterMovesToNextRow" BackColor="191, 219, 255" ForeColor="Black" Font="Segoe UI, 8.25pt" AutoScroll="True" Cursor="Arrow" RightToLeft="Yes" TabIndex="2" ImeMode="NoControl">
+  <MasterTemplate MultiSelect="True" ClipboardCopyMode="EnableAlwaysIncludeHeaderText" SelectLastAddedRow="False" ShowFilterCellOperatorText="False" EnableAlternatingRowColor="True" AllowEditRow="False" AllowColumnHeaderContextMenu="False" AllowCellContextMenu="False" AllowDeleteRow="False" AllowAddNewRow="False" EnableGrouping="False" EnableFiltering="True">
+    <Columns>
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Name="ID" IsVisible="False" HeaderText="الرقم" WrapText="True" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="34" Name="FullName" IsVisible="True" HeaderText="الاسم" WrapText="True" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="41" Name="FullAddress" IsVisible="True" HeaderText="العنوان" WrapText="True" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="56" Name="OrphanNumber" IsVisible="True" HeaderText="عدد الأيتام" WrapText="True" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Name="IdentityCard_ID" IsVisible="False" HeaderText="رقم البطاقة الشخصية" WrapText="True" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="36" Name="Jop" IsVisible="True" HeaderText="العمل" WrapText="True" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="72" Name="Income" IsVisible="True" HeaderText="الدخل الشهري" WrapText="True" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Name="Notes" IsVisible="False" HeaderText="ملاحظات" WrapText="True" />
+      <Telerik.WinControls.UI.GridViewImageColumn ImageLayout="Stretch" Name="IdentityCard_Photo" IsVisible="False" AllowSort="False" HeaderText="صورة البطاقة الشخصية" />
+      <Telerik.WinControls.UI.GridViewImageColumn ImageLayout="Stretch" Name="IdentityCard_Photo2" IsVisible="False" AllowSort="False" HeaderText="صورة البطاقة الشخصية" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="72" Name="RegDate" IsVisible="True" HeaderText="تاريخ التسجيل" WrapText="True" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Name="UserName" IsVisible="False" HeaderText="اسم المستخدم" WrapText="True" />
+    </Columns>
+  </MasterTemplate>
+</RadGridView>

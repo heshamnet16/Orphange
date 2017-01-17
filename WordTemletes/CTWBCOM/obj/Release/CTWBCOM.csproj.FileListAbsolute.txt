@@ -1,0 +1,9 @@
+D:\Programming\Orphanage\WordTemletes\CTWBOpenXML\bin\Release\CTWBCOM.dll
+D:\Programming\Orphanage\WordTemletes\CTWBOpenXML\bin\Release\CTWBCOM.pdb
+D:\Programming\Orphanage\WordTemletes\CTWBOpenXML\obj\Release\CTWBCOM.dll
+D:\Programming\Orphanage\WordTemletes\CTWBOpenXML\obj\Release\CTWBCOM.pdb
+D:\Programming\Orphanage\WordTemletes\CTWBCOM\bin\Release\CTWBCOM.dll
+D:\Programming\Orphanage\WordTemletes\CTWBCOM\bin\Release\CTWBCOM.pdb
+D:\Programming\Orphanage\WordTemletes\CTWBCOM\obj\Release\CTWBCOM.dll
+D:\Programming\Orphanage\WordTemletes\CTWBCOM\obj\Release\CTWBCOM.pdb
+D:\Programming\Orphanage\WordTemletes\CTWBCOM\obj\Release\CTWBCOM.csprojResolveAssemblyReference.cache

@@ -1,0 +1,11 @@
+D:\Programming\Orphanage\SearchControl\SearchControl\bin\Release\SearchControl.dll
+D:\Programming\Orphanage\SearchControl\SearchControl\bin\Release\SearchControl.pdb
+D:\Programming\Orphanage\SearchControl\SearchControl\bin\Release\LangChanger.dll
+D:\Programming\Orphanage\SearchControl\SearchControl\bin\Release\LangChanger.pdb
+D:\Programming\Orphanage\SearchControl\SearchControl\bin\Release\LangChanger.xml
+D:\Programming\Orphanage\SearchControl\SearchControl\obj\Release\SearchControl.Properties.Resources.resources
+D:\Programming\Orphanage\SearchControl\SearchControl\obj\Release\SearchControl.SearchControl.resources
+D:\Programming\Orphanage\SearchControl\SearchControl\obj\Release\SearchControl.csproj.GenerateResource.Cache
+D:\Programming\Orphanage\SearchControl\SearchControl\obj\Release\SearchControl.dll
+D:\Programming\Orphanage\SearchControl\SearchControl\obj\Release\SearchControl.pdb
+D:\Programming\Orphanage\SearchControl\SearchControl\obj\Release\SearchControl.csprojResolveAssemblyReference.cache

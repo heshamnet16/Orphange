@@ -1,0 +1,13 @@
+F:\Programming\Orphanage\OrphansViewer\Ovih\obj\Debug\Ovih.csprojResolveAssemblyReference.cache
+F:\Programming\Orphanage\OrphansViewer\Ovih\bin\Debug\Ovih.dll
+F:\Programming\Orphanage\OrphansViewer\Ovih\bin\Debug\Ovih.pdb
+F:\Programming\Orphanage\OrphansViewer\Ovih\bin\Debug\FileCreation.dll
+F:\Programming\Orphanage\OrphansViewer\Ovih\bin\Debug\SharpShell.dll
+F:\Programming\Orphanage\OrphansViewer\Ovih\bin\Debug\FileCreation.pdb
+F:\Programming\Orphanage\OrphansViewer\Ovih\bin\Debug\FileCreation.xml
+F:\Programming\Orphanage\OrphansViewer\Ovih\bin\Debug\SharpShell.pdb
+F:\Programming\Orphanage\OrphansViewer\Ovih\bin\Debug\SharpShell.xml
+F:\Programming\Orphanage\OrphansViewer\Ovih\obj\Debug\Ovih.Properties.Resources.resources
+F:\Programming\Orphanage\OrphansViewer\Ovih\obj\Debug\Ovih.csproj.GenerateResource.Cache
+F:\Programming\Orphanage\OrphansViewer\Ovih\obj\Debug\Ovih.dll
+F:\Programming\Orphanage\OrphansViewer\Ovih\obj\Debug\Ovih.pdb

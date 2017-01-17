@@ -1,0 +1,18 @@
+﻿<RadGridView ShowGroupPanel="False" ReadOnly="True" EnterKeyMode="EnterMovesToNextRow" BackColor="191, 219, 255" ForeColor="Black" Font="Segoe UI, 8.25pt" AutoScroll="True" Cursor="Default" RightToLeft="Yes" TabIndex="3" ImeMode="NoControl">
+  <MasterTemplate MultiSelect="True" ClipboardCopyMode="EnableAlwaysIncludeHeaderText" SelectLastAddedRow="False" ShowFilterCellOperatorText="False" EnableAlternatingRowColor="True" AllowEditRow="False" AllowColumnHeaderContextMenu="False" AllowCellContextMenu="False" AllowDeleteRow="False" AllowAddNewRow="False" EnableGrouping="False" EnableFiltering="True">
+    <Columns>
+      <Telerik.WinControls.UI.GridViewDecimalColumn DecimalPlaces="0" Name="ID" IsVisible="True" HeaderText="الرقم" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Name="Supporter" IsVisible="True" HeaderText="الكفيل" />
+      <Telerik.WinControls.UI.GridViewDecimalColumn ThousandsSeparator="True" FormatString="{0:F2}" Name="Amount" IsVisible="True" HeaderText="المبلغ" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Name="Currency" IsVisible="True" HeaderText="العملة" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Name="StartDate" IsVisible="True" HeaderText="تاريخ البدء" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Name="EndDate" IsVisible="True" HeaderText="تاريخ الإنتهاء" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Name="BailedNumber" IsVisible="True" HeaderText="عدد المكفولين" />
+      <Telerik.WinControls.UI.GridViewCheckBoxColumn Name="IsMonthly" IsVisible="True" HeaderText="شهرية" DisableHTMLRendering="False" AutoEllipsis="False" />
+      <Telerik.WinControls.UI.GridViewCheckBoxColumn Name="IsFamily" IsVisible="True" HeaderText="عائلية" DisableHTMLRendering="False" AutoEllipsis="False" />
+      <Telerik.WinControls.UI.GridViewCheckBoxColumn Name="IsEnded" IsVisible="True" HeaderText="منتهية" DisableHTMLRendering="False" AutoEllipsis="False" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Name="RegDate" IsVisible="True" HeaderText="تاريخ التسجيل" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Name="UserName" IsVisible="True" HeaderText="اسم المستخدم" />
+    </Columns>
+  </MasterTemplate>
+</RadGridView>

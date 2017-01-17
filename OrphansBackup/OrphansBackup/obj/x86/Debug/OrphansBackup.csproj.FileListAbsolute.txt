@@ -1,0 +1,12 @@
+c:\users\hesham\documents\visual studio 2010\Projects\OrphansBackup\OrphansBackup\bin\Debug\OrphansBackup.exe
+c:\users\hesham\documents\visual studio 2010\Projects\OrphansBackup\OrphansBackup\bin\Debug\OrphansBackup.pdb
+c:\users\hesham\documents\visual studio 2010\Projects\OrphansBackup\OrphansBackup\obj\x86\Debug\OrphansBackup.exe
+c:\users\hesham\documents\visual studio 2010\Projects\OrphansBackup\OrphansBackup\obj\x86\Debug\OrphansBackup.pdb
+c:\users\hesham\documents\visual studio 2010\Projects\OrphansBackup\OrphansBackup\obj\x86\Debug\OrphansBackup.csprojResolveAssemblyReference.cache
+C:\Users\Hesham\Documents\Visual Studio 2010\Projects\OrphansBackup\OrphansBackup\bin\Debug\SqlBackups.dll
+C:\Users\Hesham\Documents\Visual Studio 2010\Projects\OrphansBackup\OrphansBackup\bin\Debug\XMLMapping.dll
+C:\Users\Hesham\Documents\Visual Studio 2010\Projects\OrphansBackup\OrphansBackup\bin\Debug\SqlBackups.pdb
+C:\Users\Hesham\Documents\Visual Studio 2010\Projects\OrphansBackup\OrphansBackup\bin\Debug\XMLMapping.pdb
+C:\Users\Hesham\Documents\Visual Studio 2010\Projects\OrphansBackup\OrphansBackup\bin\Debug\XMLMapping.xml
+D:\Programming\Orphanage\OrphansBackup\OrphansBackup\obj\x86\Debug\OrphansBackup.exe
+D:\Programming\Orphanage\OrphansBackup\OrphansBackup\obj\x86\Debug\OrphansBackup.pdb

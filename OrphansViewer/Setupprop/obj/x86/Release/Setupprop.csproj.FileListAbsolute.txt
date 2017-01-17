@@ -1,0 +1,4 @@
+F:\Programming\Orphanage\OrphansViewer\Setupprop\bin\Release\Setupprop.exe
+F:\Programming\Orphanage\OrphansViewer\Setupprop\bin\Release\Setupprop.pdb
+F:\Programming\Orphanage\OrphansViewer\Setupprop\obj\x86\Release\Setupprop.exe
+F:\Programming\Orphanage\OrphansViewer\Setupprop\obj\x86\Release\Setupprop.pdb

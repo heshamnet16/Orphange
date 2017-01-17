@@ -1,0 +1,8 @@
+D:\Programming\Orphanage\OrphansBackup\OrphansBackup\bin\x64\Release\OrphansBackup.exe
+D:\Programming\Orphanage\OrphansBackup\OrphansBackup\bin\x64\Release\SqlBackups.dll
+D:\Programming\Orphanage\OrphansBackup\OrphansBackup\bin\x64\Release\XMLMapping.dll
+D:\Programming\Orphanage\OrphansBackup\OrphansBackup\bin\x64\Release\SqlBackups.pdb
+D:\Programming\Orphanage\OrphansBackup\OrphansBackup\bin\x64\Release\XMLMapping.pdb
+D:\Programming\Orphanage\OrphansBackup\OrphansBackup\bin\x64\Release\XMLMapping.xml
+D:\Programming\Orphanage\OrphansBackup\OrphansBackup\obj\x64\Release\OrphansBackup.csprojResolveAssemblyReference.cache
+D:\Programming\Orphanage\OrphansBackup\OrphansBackup\obj\x64\Release\OrphansBackup.exe

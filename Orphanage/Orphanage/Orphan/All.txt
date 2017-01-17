@@ -1,0 +1,27 @@
+SELECT        Father_Names.FId, Father_Names.FAtherF, Mothers_Names.MotherF, Mothers_Names.MId, Orphans_Names.FamID, Orphans_Names.Color_Mark, 
+                         Orphans_Names.RegDate, Orphans_Names.IsBailed, Orphans_Names.FacePhoto, Orphans_Names.FullPhoto, Orphans_Names.IsExcluded, 
+                         Orphans_Names.Birthday, Orphans_Names.Age, Orphans_Names.OrphanF, Orphans_Names.OrphanFather, Orphans_Names.OrphanL, Orphans_Names.OId, 
+                         Orphans_Names.UserName, BondsMen_Names.BondF, BondsMen_Names.BondFather, BondsMen_Names.BondL, Fam.Address_ID, Addresses.Country AS Expr1, 
+                         Addresses.City AS Expr2, Addresses.Town AS Expr3, Mothers_Names.MotherFather, Mothers_Names.MotherL, Father_Names.FAtherFather, 
+                         Father_Names.FAthersL, Addresses.Twitter AS Expr4, Addresses.ID AS Expr5, Addresses.Note, Addresses.Facebook, Addresses.Email, Addresses.Fax, 
+                         Addresses.Work_phone, Addresses.Cell_Phone, Addresses.Home_Phone, Addresses.Street, Fam.Residence_Type, Fam.Redidence_State, Fam.IsRefugee, 
+                         Fam.FamilyCard_Num, Fam.Finncial_State, Fam.isExcluded AS Expr6, Fam.IsBailed AS Expr7, Fam.Bail_ID, Orphans_Names.Kaid, Orphans_Names.Birthplace, 
+                         Orphans_Names.Gender, Orphans_Names.Bail_ID AS Expr8
+FROM            (SELECT        Mothers.ID AS MId, Names_1.First AS MotherF, Names_1.Father AS MotherFather, Names_1.Last AS MotherL
+                           FROM            Mothers INNER JOIN
+                                                    Names AS Names_1 ON Mothers.Name_Id = Names_1.ID) AS Mothers_Names INNER JOIN
+                             (SELECT        Fathers.ID AS FId, Names.First AS FAtherF, Names.Father AS FAtherFather, Names.Last AS FAthersL
+                                FROM            Fathers INNER JOIN
+                                                         Names ON Fathers.Name_ID = Names.ID) AS Father_Names INNER JOIN
+                         Famlies AS Fam ON Father_Names.FId = Fam.Father_Id ON Mothers_Names.MId = Fam.Mother_ID INNER JOIN
+                             (SELECT        Orphans.ID AS OId, Orphans.Family_ID AS FamID, Names_2.First AS OrphanF, Names_2.Father AS OrphanFather, Names_2.Last AS OrphanL, 
+                                                         Orphans.Age, Orphans.Birthday, Orphans.IsExcluded, Orphans.FullPhoto, Orphans.FacePhoto, Orphans.IsBailed, Orphans.RegDate, 
+                                                         Orphans.Color_Mark, U.UserName, Orphans.BondsMan_ID, Orphans.Kaid, Orphans.Birthplace, Orphans.Gender, Orphans.Bail_ID
+                                FROM            Orphans INNER JOIN
+                                                         Names AS Names_2 ON Orphans.Name = Names_2.ID INNER JOIN
+                                                         Users AS U ON Orphans.User_ID = U.ID) AS Orphans_Names ON Fam.ID = Orphans_Names.FamID INNER JOIN
+                             (SELECT        BondsMen.ID AS BId, Names_11.First AS BondF, Names_11.Father AS BondFather, Names_11.Last AS BondL
+                                FROM            BondsMen INNER JOIN
+                                                         Names AS Names_11 ON BondsMen.Name_Id = Names_11.ID) AS BondsMen_Names ON 
+                         Orphans_Names.BondsMan_ID = BondsMen_Names.BId INNER JOIN
+                         Addresses ON Fam.Address_ID2 = Addresses.ID OR Fam.Address_ID = Addresses.ID

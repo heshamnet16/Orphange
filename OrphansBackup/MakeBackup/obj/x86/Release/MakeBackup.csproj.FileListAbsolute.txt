@@ -1,0 +1,14 @@
+D:\Programming\Orphanage\OrphansBackup\MakeBackup\bin\Release\MakeBackup.exe
+D:\Programming\Orphanage\OrphansBackup\MakeBackup\bin\Release\MakeBackup.pdb
+D:\Programming\Orphanage\OrphansBackup\MakeBackup\bin\Release\SqlBackups.dll
+D:\Programming\Orphanage\OrphansBackup\MakeBackup\bin\Release\SqlBackups.pdb
+D:\Programming\Orphanage\OrphansBackup\MakeBackup\obj\x86\Release\MakeBackup.csprojResolveAssemblyReference.cache
+D:\Programming\Orphanage\OrphansBackup\MakeBackup\obj\x86\Release\MakeBackup.exe
+D:\Programming\Orphanage\OrphansBackup\MakeBackup\obj\x86\Release\MakeBackup.pdb
+F:\Programming\Orphanage\OrphansBackup\MakeBackup\bin\Release\MakeBackup.exe
+F:\Programming\Orphanage\OrphansBackup\MakeBackup\bin\Release\MakeBackup.pdb
+F:\Programming\Orphanage\OrphansBackup\MakeBackup\bin\Release\SqlBackups.dll
+F:\Programming\Orphanage\OrphansBackup\MakeBackup\bin\Release\SqlBackups.pdb
+F:\Programming\Orphanage\OrphansBackup\MakeBackup\obj\x86\Release\MakeBackup.exe
+F:\Programming\Orphanage\OrphansBackup\MakeBackup\obj\x86\Release\MakeBackup.pdb
+F:\Programming\Orphanage\OrphansBackup\MakeBackup\obj\x86\Release\MakeBackup.csprojResolveAssemblyReference.cache

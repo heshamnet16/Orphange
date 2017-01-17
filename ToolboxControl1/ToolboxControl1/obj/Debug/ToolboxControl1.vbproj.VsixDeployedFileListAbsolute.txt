@@ -1,0 +1,4 @@
+C:\Users\Toshiba\AppData\Local\Microsoft\VisualStudio\10.0Exp\Extensions\Microsoft\ToolboxControl1\1.0\\ToolboxControl1.dll
+C:\Users\Toshiba\AppData\Local\Microsoft\VisualStudio\10.0Exp\Extensions\Microsoft\ToolboxControl1\1.0\\ToolboxControl1.pkgdef
+C:\Users\Toshiba\AppData\Local\Microsoft\VisualStudio\10.0Exp\Extensions\Microsoft\ToolboxControl1\1.0\\extension.vsixmanifest
+C:\Users\Toshiba\AppData\Local\Microsoft\VisualStudio\10.0Exp\Extensions\Microsoft\ToolboxControl1\1.0\\ToolboxControl1.pdb

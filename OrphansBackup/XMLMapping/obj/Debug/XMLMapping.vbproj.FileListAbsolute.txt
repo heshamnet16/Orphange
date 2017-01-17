@@ -1,0 +1,16 @@
+c:\users\hesham\documents\visual studio 2010\Projects\OrphansBackup\XMLMapping\bin\Debug\XMLMapping.dll
+c:\users\hesham\documents\visual studio 2010\Projects\OrphansBackup\XMLMapping\bin\Debug\XMLMapping.pdb
+c:\users\hesham\documents\visual studio 2010\Projects\OrphansBackup\XMLMapping\bin\Debug\XMLMapping.xml
+c:\users\hesham\documents\visual studio 2010\Projects\OrphansBackup\XMLMapping\obj\Debug\XMLMapping.Resources.resources
+c:\users\hesham\documents\visual studio 2010\Projects\OrphansBackup\XMLMapping\obj\Debug\XMLMapping.vbproj.GenerateResource.Cache
+c:\users\hesham\documents\visual studio 2010\Projects\OrphansBackup\XMLMapping\obj\Debug\XMLMapping.dll
+c:\users\hesham\documents\visual studio 2010\Projects\OrphansBackup\XMLMapping\obj\Debug\XMLMapping.xml
+c:\users\hesham\documents\visual studio 2010\Projects\OrphansBackup\XMLMapping\obj\Debug\XMLMapping.pdb
+D:\Programming\Orphanage\OrphansBackup\XMLMapping\bin\Debug\XMLMapping.dll
+D:\Programming\Orphanage\OrphansBackup\XMLMapping\bin\Debug\XMLMapping.pdb
+D:\Programming\Orphanage\OrphansBackup\XMLMapping\bin\Debug\XMLMapping.xml
+D:\Programming\Orphanage\OrphansBackup\XMLMapping\obj\Debug\XMLMapping.Resources.resources
+D:\Programming\Orphanage\OrphansBackup\XMLMapping\obj\Debug\XMLMapping.vbproj.GenerateResource.Cache
+D:\Programming\Orphanage\OrphansBackup\XMLMapping\obj\Debug\XMLMapping.dll
+D:\Programming\Orphanage\OrphansBackup\XMLMapping\obj\Debug\XMLMapping.xml
+D:\Programming\Orphanage\OrphansBackup\XMLMapping\obj\Debug\XMLMapping.pdb

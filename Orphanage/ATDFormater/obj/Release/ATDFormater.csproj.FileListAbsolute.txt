@@ -1,0 +1,10 @@
+D:\Programming\Orphanage\Orphanage\ATDFormater\bin\Release\ATDFormater.dll
+D:\Programming\Orphanage\Orphanage\ATDFormater\bin\Release\ATDFormater.pdb
+D:\Programming\Orphanage\Orphanage\ATDFormater\obj\Release\ATDFormater.csprojResolveAssemblyReference.cache
+D:\Programming\Orphanage\Orphanage\ATDFormater\obj\Release\ATDFormater.dll
+D:\Programming\Orphanage\Orphanage\ATDFormater\obj\Release\ATDFormater.pdb
+F:\Programming\Orphanage\Orphanage\ATDFormater\bin\Release\ATDFormater.dll
+F:\Programming\Orphanage\Orphanage\ATDFormater\bin\Release\ATDFormater.pdb
+F:\Programming\Orphanage\Orphanage\ATDFormater\obj\Release\ATDFormater.dll
+F:\Programming\Orphanage\Orphanage\ATDFormater\obj\Release\ATDFormater.pdb
+F:\Programming\Orphanage\Orphanage\ATDFormater\obj\Release\ATDFormater.csprojResolveAssemblyReference.cache

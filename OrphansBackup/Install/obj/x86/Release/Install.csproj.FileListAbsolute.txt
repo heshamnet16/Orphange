@@ -1,0 +1,10 @@
+D:\Programming\Orphanage\OrphansBackup\Install\bin\Release\Install.exe
+D:\Programming\Orphanage\OrphansBackup\Install\bin\Release\Install.pdb
+D:\Programming\Orphanage\OrphansBackup\Install\obj\x86\Release\Install.exe
+D:\Programming\Orphanage\OrphansBackup\Install\obj\x86\Release\Install.pdb
+D:\Programming\Orphanage\OrphansBackup\Install\obj\x86\Release\Install.csprojResolveAssemblyReference.cache
+F:\Programming\Orphanage\OrphansBackup\Install\bin\Release\Install.exe
+F:\Programming\Orphanage\OrphansBackup\Install\bin\Release\Install.pdb
+F:\Programming\Orphanage\OrphansBackup\Install\obj\x86\Release\Install.exe
+F:\Programming\Orphanage\OrphansBackup\Install\obj\x86\Release\Install.pdb
+F:\Programming\Orphanage\OrphansBackup\Install\obj\x86\Release\Install.csprojResolveAssemblyReference.cache

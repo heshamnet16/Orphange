@@ -1,0 +1,8 @@
+F:\Programming\Orphanage\FileCreation\FileCreation\bin\Debug\FileCreation.dll
+F:\Programming\Orphanage\FileCreation\FileCreation\bin\Debug\FileCreation.pdb
+F:\Programming\Orphanage\FileCreation\FileCreation\bin\Debug\FileCreation.xml
+F:\Programming\Orphanage\FileCreation\FileCreation\obj\Debug\FileCreation.Resources.resources
+F:\Programming\Orphanage\FileCreation\FileCreation\obj\Debug\FileCreation.vbproj.GenerateResource.Cache
+F:\Programming\Orphanage\FileCreation\FileCreation\obj\Debug\FileCreation.dll
+F:\Programming\Orphanage\FileCreation\FileCreation\obj\Debug\FileCreation.xml
+F:\Programming\Orphanage\FileCreation\FileCreation\obj\Debug\FileCreation.pdb

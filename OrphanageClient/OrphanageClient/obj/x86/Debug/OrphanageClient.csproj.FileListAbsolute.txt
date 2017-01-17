@@ -1,0 +1,15 @@
+F:\Programming\Orphanage\OrphanageClient\OrphanageClient\bin\Debug\OrphanageClient.exe
+F:\Programming\Orphanage\OrphanageClient\OrphanageClient\bin\Debug\OrphanageClient.pdb
+F:\Programming\Orphanage\OrphanageClient\OrphanageClient\bin\Debug\WMCont.dll
+F:\Programming\Orphanage\OrphanageClient\OrphanageClient\bin\Debug\NAudio.dll
+F:\Programming\Orphanage\OrphanageClient\OrphanageClient\bin\Debug\WMCont.pdb
+F:\Programming\Orphanage\OrphanageClient\OrphanageClient\bin\Debug\NAudio.xml
+F:\Programming\Orphanage\OrphanageClient\OrphanageClient\obj\x86\Debug\OrphanageClient.csprojResolveAssemblyReference.cache
+F:\Programming\Orphanage\OrphanageClient\OrphanageClient\obj\x86\Debug\OrphanageClient.Properties.Resources.resources
+F:\Programming\Orphanage\OrphanageClient\OrphanageClient\obj\x86\Debug\OrphanageClient.csproj.GenerateResource.Cache
+F:\Programming\Orphanage\OrphanageClient\OrphanageClient\obj\x86\Debug\OrphanageClient.exe
+F:\Programming\Orphanage\OrphanageClient\OrphanageClient\obj\x86\Debug\OrphanageClient.pdb
+F:\Programming\Orphanage\OrphanageClient\OrphanageClient\obj\x86\Debug\OrphanageClient.frmCam.resources
+F:\Programming\Orphanage\OrphanageClient\OrphanageClient\obj\x86\Debug\OrphanageClient.frmBrowser.resources
+F:\Programming\Orphanage\OrphanageClient\OrphanageClient\obj\x86\Debug\OrphanageClient.Form1.resources
+F:\Programming\Orphanage\OrphanageClient\OrphanageClient\obj\x86\Debug\OrphanageClient.frmMic.resources

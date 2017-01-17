@@ -1,0 +1,13 @@
+D:\Programming\Orphanage\AddressForm\AddressForm\bin\Debug\AddressForm.dll
+D:\Programming\Orphanage\AddressForm\AddressForm\bin\Debug\AddressForm.pdb
+D:\Programming\Orphanage\AddressForm\AddressForm\bin\Debug\AddressForm.xml
+D:\Programming\Orphanage\AddressForm\AddressForm\bin\Debug\LangChanger.dll
+D:\Programming\Orphanage\AddressForm\AddressForm\bin\Debug\LangChanger.pdb
+D:\Programming\Orphanage\AddressForm\AddressForm\bin\Debug\LangChanger.xml
+D:\Programming\Orphanage\AddressForm\AddressForm\obj\Debug\AddressForm.vbprojResolveAssemblyReference.cache
+D:\Programming\Orphanage\AddressForm\AddressForm\obj\Debug\AddressForm.Resources.resources
+D:\Programming\Orphanage\AddressForm\AddressForm\obj\Debug\AddressForm.AddressForm.resources
+D:\Programming\Orphanage\AddressForm\AddressForm\obj\Debug\AddressForm.vbproj.GenerateResource.Cache
+D:\Programming\Orphanage\AddressForm\AddressForm\obj\Debug\AddressForm.dll
+D:\Programming\Orphanage\AddressForm\AddressForm\obj\Debug\AddressForm.xml
+D:\Programming\Orphanage\AddressForm\AddressForm\obj\Debug\AddressForm.pdb

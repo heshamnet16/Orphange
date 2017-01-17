@@ -1,0 +1,16 @@
+F:\Programming\Orphanage\RemotingServer\RemotingServer\bin\Debug\RemotingServer.exe
+F:\Programming\Orphanage\RemotingServer\RemotingServer\bin\Debug\RemotingServer.pdb
+F:\Programming\Orphanage\RemotingServer\RemotingServer\obj\x86\Debug\RemotingServer.Form1.resources
+F:\Programming\Orphanage\RemotingServer\RemotingServer\obj\x86\Debug\RemotingServer.Properties.Resources.resources
+F:\Programming\Orphanage\RemotingServer\RemotingServer\obj\x86\Debug\RemotingServer.csproj.GenerateResource.Cache
+F:\Programming\Orphanage\RemotingServer\RemotingServer\obj\x86\Debug\RemotingServer.exe
+F:\Programming\Orphanage\RemotingServer\RemotingServer\obj\x86\Debug\RemotingServer.pdb
+F:\Programming\Orphanage\RemotingServer\RemotingServer\bin\Debug\WMCont.dll
+F:\Programming\Orphanage\RemotingServer\RemotingServer\bin\Debug\NAudio.dll
+F:\Programming\Orphanage\RemotingServer\RemotingServer\bin\Debug\WMCont.pdb
+F:\Programming\Orphanage\RemotingServer\RemotingServer\bin\Debug\NAudio.xml
+F:\Programming\Orphanage\RemotingServer\RemotingServer\obj\x86\Debug\RemotingServer.csprojResolveAssemblyReference.cache
+F:\Programming\Orphanage\RemotingServer\RemotingServer\bin\Debug\DirectX.Capture.dll
+F:\Programming\Orphanage\RemotingServer\RemotingServer\bin\Debug\DShowNET.dll
+F:\Programming\Orphanage\RemotingServer\RemotingServer\bin\Debug\DirectX.Capture.pdb
+F:\Programming\Orphanage\RemotingServer\RemotingServer\bin\Debug\DShowNET.pdb

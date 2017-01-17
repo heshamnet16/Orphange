@@ -1,0 +1,13 @@
+F:\Programming\Orphanage\OrphansViewer\Ovth\bin\Release\Ovth.dll
+F:\Programming\Orphanage\OrphansViewer\Ovth\bin\Release\Ovth.pdb
+F:\Programming\Orphanage\OrphansViewer\Ovth\bin\Release\FileCreation.dll
+F:\Programming\Orphanage\OrphansViewer\Ovth\bin\Release\SharpShell.dll
+F:\Programming\Orphanage\OrphansViewer\Ovth\bin\Release\FileCreation.pdb
+F:\Programming\Orphanage\OrphansViewer\Ovth\bin\Release\FileCreation.xml
+F:\Programming\Orphanage\OrphansViewer\Ovth\bin\Release\SharpShell.pdb
+F:\Programming\Orphanage\OrphansViewer\Ovth\bin\Release\SharpShell.xml
+F:\Programming\Orphanage\OrphansViewer\Ovth\obj\Release\Ovth.dll
+F:\Programming\Orphanage\OrphansViewer\Ovth\obj\Release\Ovth.pdb
+F:\Programming\Orphanage\OrphansViewer\Ovth\obj\Release\Ovth.Properties.Resources.resources
+F:\Programming\Orphanage\OrphansViewer\Ovth\obj\Release\Ovth.csproj.GenerateResource.Cache
+F:\Programming\Orphanage\OrphansViewer\Ovth\obj\Release\Ovth.csprojResolveAssemblyReference.cache

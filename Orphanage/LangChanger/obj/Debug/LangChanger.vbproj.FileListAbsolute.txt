@@ -1,0 +1,8 @@
+D:\Programming\Orphanage\Orphanage\LangChanger\bin\Debug\LangChanger.dll
+D:\Programming\Orphanage\Orphanage\LangChanger\bin\Debug\LangChanger.pdb
+D:\Programming\Orphanage\Orphanage\LangChanger\bin\Debug\LangChanger.xml
+D:\Programming\Orphanage\Orphanage\LangChanger\obj\Debug\LangChanger.Resources.resources
+D:\Programming\Orphanage\Orphanage\LangChanger\obj\Debug\LangChanger.vbproj.GenerateResource.Cache
+D:\Programming\Orphanage\Orphanage\LangChanger\obj\Debug\LangChanger.dll
+D:\Programming\Orphanage\Orphanage\LangChanger\obj\Debug\LangChanger.xml
+D:\Programming\Orphanage\Orphanage\LangChanger\obj\Debug\LangChanger.pdb

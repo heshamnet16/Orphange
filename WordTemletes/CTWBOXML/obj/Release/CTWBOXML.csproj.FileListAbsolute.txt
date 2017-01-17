@@ -1,0 +1,5 @@
+D:\Programming\Orphanage\WordTemletes\CTWBOXML\bin\Release\CTWBOXML.dll
+D:\Programming\Orphanage\WordTemletes\CTWBOXML\bin\Release\CTWBOXML.pdb
+D:\Programming\Orphanage\WordTemletes\CTWBOXML\obj\Release\CTWBOXML.dll
+D:\Programming\Orphanage\WordTemletes\CTWBOXML\obj\Release\CTWBOXML.pdb
+D:\Programming\Orphanage\WordTemletes\CTWBOXML\obj\Release\CTWBOXML.csprojResolveAssemblyReference.cache

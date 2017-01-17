@@ -1,0 +1,5 @@
+c:\users\hesham\documents\visual studio 2010\Projects\OrphansBackup\SqlBackups\bin\Debug\SqlBackups.dll
+c:\users\hesham\documents\visual studio 2010\Projects\OrphansBackup\SqlBackups\bin\Debug\SqlBackups.pdb
+c:\users\hesham\documents\visual studio 2010\Projects\OrphansBackup\SqlBackups\obj\Debug\SqlBackups.csprojResolveAssemblyReference.cache
+c:\users\hesham\documents\visual studio 2010\Projects\OrphansBackup\SqlBackups\obj\Debug\SqlBackups.dll
+c:\users\hesham\documents\visual studio 2010\Projects\OrphansBackup\SqlBackups\obj\Debug\SqlBackups.pdb

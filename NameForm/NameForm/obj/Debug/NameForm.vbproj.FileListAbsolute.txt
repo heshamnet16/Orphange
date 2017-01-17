@@ -1,0 +1,12 @@
+D:\Programming\Orphanage\NameForm\NameForm\bin\Debug\NameForm.dll
+D:\Programming\Orphanage\NameForm\NameForm\bin\Debug\NameForm.pdb
+D:\Programming\Orphanage\NameForm\NameForm\bin\Debug\NameForm.xml
+D:\Programming\Orphanage\NameForm\NameForm\bin\Debug\LangChanger.dll
+D:\Programming\Orphanage\NameForm\NameForm\bin\Debug\LangChanger.pdb
+D:\Programming\Orphanage\NameForm\NameForm\bin\Debug\LangChanger.xml
+D:\Programming\Orphanage\NameForm\NameForm\obj\Debug\NameForm.Resources.resources
+D:\Programming\Orphanage\NameForm\NameForm\obj\Debug\NameForm.NameForm.resources
+D:\Programming\Orphanage\NameForm\NameForm\obj\Debug\NameForm.vbproj.GenerateResource.Cache
+D:\Programming\Orphanage\NameForm\NameForm\obj\Debug\NameForm.dll
+D:\Programming\Orphanage\NameForm\NameForm\obj\Debug\NameForm.xml
+D:\Programming\Orphanage\NameForm\NameForm\obj\Debug\NameForm.pdb

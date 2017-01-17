@@ -1,0 +1,874 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3CDB684A-5DD7-473A-8841-F454BBF9189B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Orphanage.My.MyApplication</StartupObject>
+    <RootNamespace>Orphanage</RootNamespace>
+    <AssemblyName>Orphanage</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>c:\Orphanage\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <BootstrapperComponentsLocation>Relative</BootstrapperComponentsLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Orphanage.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Orphanage.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DocumentationFile>Orphanage.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Debug\Orphanage.exe.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.vb</CodeAnalysisModuleSuppressionsFile>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DocumentationFile>Orphanage.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Release\Orphanage.exe.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.vb</CodeAnalysisModuleSuppressionsFile>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>C4EBA901AD2D28B9548E2BDD037ED4B1093ABFE4</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Orphanage_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>main.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AddressForm">
+      <HintPath>..\..\AddressForm\AddressForm\bin\Release\AddressForm.dll</HintPath>
+    </Reference>
+    <Reference Include="COWTranslation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7314a3841a26485e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\COWTranslation\COWTranslation\bin\Release\COWTranslation.dll</HintPath>
+    </Reference>
+    <Reference Include="CTWBCOM">
+      <HintPath>..\..\WordTemletes\CTWBCOM\bin\Release\CTWBCOM.dll</HintPath>
+    </Reference>
+    <Reference Include="CTWBOXML">
+      <HintPath>..\..\WordTemletes\CTWBOXML\bin\Release\CTWBOXML.dll</HintPath>
+    </Reference>
+    <Reference Include="FileCreation, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\FileCreation\FileCreation\bin\Release\FileCreation.dll</HintPath>
+    </Reference>
+    <Reference Include="Itenso.TimePeriod">
+      <HintPath>..\..\OldOrphanage\OldOrphanage\bin\Debug\Itenso.TimePeriod.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.mshtml, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="NameForm">
+      <HintPath>..\..\NameForm\NameForm\bin\Release\NameForm.dll</HintPath>
+    </Reference>
+    <Reference Include="PictureSelector">
+      <HintPath>..\..\PictureSelector\WindowsControlLibrary1\bin\Release\PictureSelector.dll</HintPath>
+    </Reference>
+    <Reference Include="RadControlSpy, Version=2013.3.1016.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
+    <Reference Include="SearchControl">
+      <HintPath>..\..\SearchControl\SearchControl\bin\Debug\SearchControl.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Telerik.WinControls, Version=2013.3.1016.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.ChartView, Version=2013.3.1016.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
+    <Reference Include="Telerik.WinControls.GridView, Version=2013.3.1016.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
+    <Reference Include="Telerik.WinControls.RadDock, Version=2013.3.1016.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.RichTextBox, Version=2013.3.1016.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.Scheduler, Version=2013.3.1016.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.SpellChecker, Version=2013.3.1016.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.Themes.Aqua, Version=2013.3.1016.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.Themes.Breeze, Version=2013.3.1016.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
+    <Reference Include="Telerik.WinControls.Themes.Desert, Version=2013.3.1016.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.Themes.HighContrastBlack, Version=2013.3.1016.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
+    <Reference Include="Telerik.WinControls.Themes.Office2007Black, Version=2013.3.1016.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
+    <Reference Include="Telerik.WinControls.Themes.Office2007Silver, Version=2013.3.1016.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
+    <Reference Include="Telerik.WinControls.Themes.Office2010Black, Version=2013.3.1016.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
+    <Reference Include="Telerik.WinControls.Themes.Office2010Blue, Version=2013.3.1016.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
+    <Reference Include="Telerik.WinControls.Themes.Office2010Silver, Version=2013.3.1016.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
+    <Reference Include="Telerik.WinControls.Themes.Office2013Light, Version=2013.3.1016.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
+    <Reference Include="Telerik.WinControls.Themes.TelerikMetro, Version=2013.3.1016.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
+    <Reference Include="Telerik.WinControls.Themes.TelerikMetroBlue, Version=2013.3.1016.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
+    <Reference Include="Telerik.WinControls.Themes.TelerikMetroTouch, Version=2013.3.1016.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
+    <Reference Include="Telerik.WinControls.Themes.VisualStudio2012Dark, Version=2013.3.1016.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
+    <Reference Include="Telerik.WinControls.Themes.VisualStudio2012Light, Version=2013.3.1016.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
+    <Reference Include="Telerik.WinControls.Themes.Windows7, Version=2013.3.1016.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
+    <Reference Include="Telerik.WinControls.Themes.Windows8, Version=2013.3.1016.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.UI, Version=2013.3.1016.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="TelerikCommon, Version=2013.3.1016.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="TelerikData, Version=2013.3.1016.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
+    <Reference Include="WordTemletes">
+      <HintPath>..\..\WordTemletes\WordTemletes\bin\Release\WordTemletes.dll</HintPath>
+    </Reference>
+    <Reference Include="XMLMapping, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\OrphansBackup\XMLMapping\bin\Release\XMLMapping.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bails\frmBails.Designer.vb">
+      <DependentUpon>frmBails.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Bails\frmBails.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bails\frmBailsSelector.Designer.vb">
+      <DependentUpon>frmBailsSelector.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Bails\frmBailsSelector.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bills\frmBill.Designer.vb">
+      <DependentUpon>frmBill.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Bills\frmBill.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bills\frmBills.Designer.vb">
+      <DependentUpon>frmBills.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Bills\frmBills.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bills\frmTransform.Designer.vb">
+      <DependentUpon>frmTransform.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Bills\frmTransform.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bills\frmTransforms.Designer.vb">
+      <DependentUpon>frmTransforms.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Bills\frmTransforms.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BondsMan\frmBondsManChooser.Designer.vb">
+      <DependentUpon>frmBondsManChooser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BondsMan\frmBondsManChooser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BondsMan\frmBondsMen.Designer.vb">
+      <DependentUpon>frmBondsMen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BondsMan\frmBondsMen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Boxes\frmBox.Designer.vb">
+      <DependentUpon>frmBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Boxes\frmBox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Boxes\frmBoxChooser.Designer.vb">
+      <DependentUpon>frmBoxChooser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Boxes\frmBoxChooser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Boxes\frmBoxes.Designer.vb">
+      <DependentUpon>frmBoxes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Boxes\frmBoxes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Classes\Bails.vb" />
+    <Compile Include="Classes\Checker.vb" />
+    <Compile Include="Classes\DbXmlFileMaper.vb" />
+    <Compile Include="Classes\ErrorManager.vb" />
+    <Compile Include="Classes\Layouts.vb" />
+    <Compile Include="Classes\LogWriter.vb" />
+    <Compile Include="Classes\OrphanageLinqToSql.designer.vb">
+      <DependentUpon>OrphanageLinqToSql.dbml</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Classes\OrphanageLinqToSql.vb">
+      <DependentUpon>OrphanageLinqToSql.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\StringEx.vb" />
+    <Compile Include="Classes\Updater.vb" />
+    <Compile Include="Classes\WindowsLauncher.vb" />
+    <Compile Include="Classes\WordExporter.vb" />
+    <Compile Include="frmAddNewOrphanW.Designer.vb">
+      <DependentUpon>frmAddNewOrphanW.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddNewOrphanW.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddNewWiard.Designer.vb">
+      <DependentUpon>frmAddNewWiard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddNewWiard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BondsMan\frmBondsMan.Designer.vb">
+      <DependentUpon>frmBondsMan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BondsMan\frmBondsMan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Father\frmFather.Designer.vb">
+      <DependentUpon>frmFather.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Father\frmFather.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Father\frmFatherChooser.Designer.vb">
+      <DependentUpon>frmFatherChooser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Father\frmFatherChooser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Father\frmFathers.Designer.vb">
+      <DependentUpon>frmFathers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Father\frmFathers.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBackupSetting.Designer.vb">
+      <DependentUpon>frmBackupSetting.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmBackupSetting.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFinancialTemplete.Designer.vb">
+      <DependentUpon>frmFinancialTemplete.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmFinancialTemplete.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFindAndCorrect.Designer.vb">
+      <DependentUpon>frmFindAndCorrect.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmFindAndCorrect.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmImportResult.Designer.vb">
+      <DependentUpon>frmImportResult.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmImportResult.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.vb">
+      <DependentUpon>frmMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNewTemplate.Designer.vb">
+      <DependentUpon>frmNewTemplate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmNewTemplate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSearch.Designer.vb">
+      <DependentUpon>FrmSearch.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSearch.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrphansDBDataSet.vb">
+      <DependentUpon>OrphansDBDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Salaries\frmPaymentTEst.Designer.vb">
+      <DependentUpon>frmPaymentTEst.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Salaries\frmPaymentTEst.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSettings.Designer.vb">
+      <DependentUpon>frmSettings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSettings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salaries\frmShowSalaries.Designer.vb">
+      <DependentUpon>frmShowSalaries.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Salaries\frmShowSalaries.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salaries\frmShowSalaryStatics.Designer.vb">
+      <DependentUpon>frmShowSalaryStatics.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Salaries\frmShowSalaryStatics.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrphansDBDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OrphansDBDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Bails\frmBail.Designer.vb">
+      <DependentUpon>frmBail.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Bails\frmBail.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Orphan\frmFamiles.Designer.vb">
+      <DependentUpon>frmFamiles.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Orphan\frmFamiles.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Orphan\frmFamily.Designer.vb">
+      <DependentUpon>frmFamily.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Orphan\frmFamily.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Orphan\frmOrphan.Designer.vb">
+      <DependentUpon>frmOrphan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Orphan\frmOrphan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmShowPic.Designer.vb">
+      <DependentUpon>frmShowPic.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmShowPic.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mother\frmMother.Designer.vb">
+      <DependentUpon>frmMother.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mother\frmMother.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mother\frmMotherChooser.Designer.vb">
+      <DependentUpon>frmMotherChooser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mother\frmMotherChooser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mother\frmMothers.Designer.vb">
+      <DependentUpon>frmMothers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mother\frmMothers.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Orphan\frmOrphans.Designer.vb">
+      <DependentUpon>frmOrphans.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Orphan\frmOrphans.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Orphan\frmOrphansChooser.Designer.vb">
+      <DependentUpon>frmOrphansChooser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Orphan\frmOrphansChooser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Supporter\frmSupporter.Designer.vb">
+      <DependentUpon>frmSupporter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Supporter\frmSupporter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Supporter\frmSupporters.Designer.vb">
+      <DependentUpon>frmSupporters.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Supporter\frmSupporters.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Supporter\frmSupporterSelector.Designer.vb">
+      <DependentUpon>frmSupporterSelector.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Supporter\frmSupporterSelector.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User\frmUsers.Designer.vb">
+      <DependentUpon>frmUsers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="User\frmUsers.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Classes\Getter.vb" />
+    <Compile Include="frmLogin.Designer.vb">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="User\frmUser.Designer.vb">
+      <DependentUpon>frmUser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="User\frmUser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Classes\Deleter.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bails\frmBails.resx">
+      <DependentUpon>frmBails.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bails\frmBailsSelector.resx">
+      <DependentUpon>frmBailsSelector.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bills\frmBill.resx">
+      <DependentUpon>frmBill.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bills\frmBills.resx">
+      <DependentUpon>frmBills.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bills\frmTransform.resx">
+      <DependentUpon>frmTransform.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bills\frmTransforms.resx">
+      <DependentUpon>frmTransforms.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BondsMan\frmBondsManChooser.resx">
+      <DependentUpon>frmBondsManChooser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BondsMan\frmBondsMen.resx">
+      <DependentUpon>frmBondsMen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Boxes\frmBox.resx">
+      <DependentUpon>frmBox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Boxes\frmBoxChooser.resx">
+      <DependentUpon>frmBoxChooser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Boxes\frmBoxes.resx">
+      <DependentUpon>frmBoxes.vb</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Classes\OrphanageLinqToSql.dbml.layout">
+      <DependentUpon>OrphanageLinqToSql.dbml</DependentUpon>
+    </None>
+    <EmbeddedResource Include="frmAddNewOrphanW.resx">
+      <DependentUpon>frmAddNewOrphanW.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddNewWiard.resx">
+      <DependentUpon>frmAddNewWiard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BondsMan\frmBondsMan.resx">
+      <DependentUpon>frmBondsMan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Father\frmFather.resx">
+      <DependentUpon>frmFather.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Father\frmFatherChooser.resx">
+      <DependentUpon>frmFatherChooser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Father\frmFathers.resx">
+      <DependentUpon>frmFathers.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBackupSetting.resx">
+      <DependentUpon>frmBackupSetting.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFinancialTemplete.resx">
+      <DependentUpon>frmFinancialTemplete.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFindAndCorrect.resx">
+      <DependentUpon>frmFindAndCorrect.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmImportResult.resx">
+      <DependentUpon>frmImportResult.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bails\frmBail.resx">
+      <DependentUpon>frmBail.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNewTemplate.resx">
+      <DependentUpon>frmNewTemplate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSearch.resx">
+      <DependentUpon>FrmSearch.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salaries\frmPaymentTEst.resx">
+      <DependentUpon>frmPaymentTEst.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSettings.resx">
+      <DependentUpon>frmSettings.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salaries\frmShowSalaries.resx">
+      <DependentUpon>frmShowSalaries.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salaries\frmShowSalaryStatics.resx">
+      <DependentUpon>frmShowSalaryStatics.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Orphan\frmFamiles.resx">
+      <DependentUpon>frmFamiles.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Orphan\frmFamily.resx">
+      <DependentUpon>frmFamily.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Orphan\frmOrphan.resx">
+      <DependentUpon>frmOrphan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmShowPic.resx">
+      <DependentUpon>frmShowPic.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mother\frmMother.resx">
+      <DependentUpon>frmMother.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mother\frmMotherChooser.resx">
+      <DependentUpon>frmMotherChooser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mother\frmMothers.resx">
+      <DependentUpon>frmMothers.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Orphan\frmOrphans.resx">
+      <DependentUpon>frmOrphans.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Orphan\frmOrphansChooser.resx">
+      <DependentUpon>frmOrphansChooser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Supporter\frmSupporter.resx">
+      <DependentUpon>frmSupporter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Supporter\frmSupporters.resx">
+      <DependentUpon>frmSupporters.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Supporter\frmSupporterSelector.resx">
+      <DependentUpon>frmSupporterSelector.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\frmUsers.resx">
+      <DependentUpon>frmUsers.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\frmUser.resx">
+      <DependentUpon>frmUser.vb</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App.config" />
+    <None Include="Classes\OrphanageLinqToSql.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>OrphanageLinqToSql.designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="FinancialTemplete.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TempToSchema.xsd">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <Resource Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ATDFormater\ATDFormater.csproj">
+      <Project>{E31AA262-165D-4BC6-BD3C-26BFBA15D330}</Project>
+      <Name>ATDFormater</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LangChanger\LangChanger.vbproj">
+      <Project>{5F99284D-A4E8-4DCB-9A00-D4464C83AB45}</Project>
+      <Name>LangChanger</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="OrphansDBDataSet.xsc">
+      <DependentUpon>OrphansDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="OrphansDBDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OrphansDBDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="OrphansDBDataSet.xss">
+      <DependentUpon>OrphansDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\DeletePng.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EditPng.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SearchPng.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NewPng.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Choose.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ghost.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Colors2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Orphans.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CryingOrphan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\columns.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fonts.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\excel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="My Project\DataSources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Replace.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NoImage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\word.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bills.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bills.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\transfer_money.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bill1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\transfer_moneies.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Family.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CancelBail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cancelghost.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UnDoBill.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Account.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Supporter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PrintPreview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Print.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="main.ico" />
+    <None Include="Resources\WOA_3 Downloaded File.png" />
+    <None Include="Resources\Comic Icons 3 filesaveas.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace ="urn:OrphanageXML:FinancialTemplates" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Templates">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Template">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Name" />
+        <xs:element name="Size" />
+        <xs:element name="IsBookmarks" />
+        <xs:element name="UseCustomBoolean" />
+        <xs:element name="BooleanFontName" />
+        <xs:element name="BooleanYesMark" />
+        <xs:element name="BooleanNOMark" />
+        <xs:element name="Data" />
+        <xs:element name="Bookmarks">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Father">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="FullName" />
+                    <xs:element name="DeathDay" />
+                    <xs:element name="Age" />
+                    <xs:element name="Jop" />
+                    <xs:element name="DeathReason" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Mother">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="FullName" />
+                    <xs:element name="IsOwnOrphan" />
+                    <xs:element name="ID" />
+                    <xs:element name="Jop" />
+                    <xs:element name="Age" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Supporter">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="FullName" />
+                    <xs:element name="Address" />
+                    <xs:element name="Note" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Address">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Full" />
+                    <xs:element name="Phone" />
+                    <xs:element name="Mobile" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Salaries">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Family" />
+                    <xs:element name="Orphan" />
+                    <xs:element name="BondsMan" />
+                    <xs:element name="OrphanCount" />
+                    <xs:element name="Bail" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Numbers">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="IsSerial" />
+                    <xs:element name="IsFather" />
+                    <xs:element name="IsMother" />
+                    <xs:element name="ISFamily" />
+                    <xs:element name="BookMArk" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Detials">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="OrphansNames" />
+                    <xs:element name="OrphansSalayies" />
+                    <xs:element name="OrphansNamesSala" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Date">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="IsSpecific" />
+                    <xs:element name="IsNow" />
+                    <xs:element name="SpecificDate" />
+                    <xs:element name="BookMark" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

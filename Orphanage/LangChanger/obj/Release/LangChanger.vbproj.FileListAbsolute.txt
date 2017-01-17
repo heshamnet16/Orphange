@@ -1,0 +1,16 @@
+D:\Programming\Orphanage\Orphanage\LangChanger\bin\Release\LangChanger.dll
+D:\Programming\Orphanage\Orphanage\LangChanger\bin\Release\LangChanger.pdb
+D:\Programming\Orphanage\Orphanage\LangChanger\bin\Release\LangChanger.xml
+D:\Programming\Orphanage\Orphanage\LangChanger\obj\Release\LangChanger.Resources.resources
+D:\Programming\Orphanage\Orphanage\LangChanger\obj\Release\LangChanger.vbproj.GenerateResource.Cache
+D:\Programming\Orphanage\Orphanage\LangChanger\obj\Release\LangChanger.dll
+D:\Programming\Orphanage\Orphanage\LangChanger\obj\Release\LangChanger.xml
+D:\Programming\Orphanage\Orphanage\LangChanger\obj\Release\LangChanger.pdb
+F:\Programming\Orphanage\Orphanage\LangChanger\bin\Release\LangChanger.dll
+F:\Programming\Orphanage\Orphanage\LangChanger\bin\Release\LangChanger.pdb
+F:\Programming\Orphanage\Orphanage\LangChanger\bin\Release\LangChanger.xml
+F:\Programming\Orphanage\Orphanage\LangChanger\obj\Release\LangChanger.Resources.resources
+F:\Programming\Orphanage\Orphanage\LangChanger\obj\Release\LangChanger.vbproj.GenerateResource.Cache
+F:\Programming\Orphanage\Orphanage\LangChanger\obj\Release\LangChanger.dll
+F:\Programming\Orphanage\Orphanage\LangChanger\obj\Release\LangChanger.xml
+F:\Programming\Orphanage\Orphanage\LangChanger\obj\Release\LangChanger.pdb

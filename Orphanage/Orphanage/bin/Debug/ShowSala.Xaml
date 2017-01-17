@@ -1,0 +1,37 @@
+﻿<RadGridView AutoSizeRows="True" CausesValidation="False" BackColor="191, 219, 255" ForeColor="Black" Font="Segoe UI, 8.25pt" Cursor="Default" RightToLeft="Yes" TabIndex="0" ImeMode="NoControl">
+  <MasterTemplate MultiSelect="True" ShowFilterCellOperatorText="False" AllowRowReorder="True" AllowColumnHeaderContextMenu="False" AllowCellContextMenu="False" AllowAddNewRow="False" EnableFiltering="True" AutoSizeColumnsMode="Fill">
+    <Columns>
+      <Telerik.WinControls.UI.GridViewDecimalColumn Width="25" Name="ID" EnableExpressionEditor="False" IsVisible="True" ReadOnly="True" HeaderText="رقم" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="138" Name="FatherName" EnableExpressionEditor="False" IsVisible="True" ReadOnly="True" HeaderText="اسم المتوفى" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Name="FatherAge" EnableExpressionEditor="False" IsVisible="False" ReadOnly="True" HeaderText="عمر المتوفى" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Name="FatherDeathReason" EnableExpressionEditor="False" IsVisible="False" ReadOnly="True" HeaderText="سبب الوفاة" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="89" Name="FatherDeath" EnableExpressionEditor="False" IsVisible="True" ReadOnly="True" HeaderText="تاريخ وفاة الأب" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Name="FatherJop" EnableExpressionEditor="False" IsVisible="False" ReadOnly="True" HeaderText="عمل المتوفى" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="155" Name="MotherName" EnableExpressionEditor="False" IsVisible="True" ReadOnly="True" HeaderText="اسم الأم" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Name="MotherAge" EnableExpressionEditor="False" IsVisible="False" ReadOnly="True" HeaderText="عمر الأم" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Name="MotherJop" EnableExpressionEditor="False" IsVisible="False" ReadOnly="True" HeaderText="عمل الأم" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="94" Name="MotherID" EnableExpressionEditor="False" IsVisible="True" ReadOnly="True" HeaderText="رقم هوية الأم" />
+      <Telerik.WinControls.UI.GridViewCheckBoxColumn MinWidth="20" Name="MotherIsOwnOrphan" EnableExpressionEditor="False" IsVisible="False" ReadOnly="True" HeaderText="تحتضن اليتيم" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="89" Name="OrphanCount" EnableExpressionEditor="False" IsVisible="True" ReadOnly="True" HeaderText="عدد الأيتام" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Name="OrphanNames" EnableExpressionEditor="False" IsVisible="False" ReadOnly="True" HeaderText="اسماء الأيتام" />
+      <Telerik.WinControls.UI.GridViewCheckBoxColumn MinWidth="20" Name="IsBailedFam" EnableExpressionEditor="False" IsVisible="False" ReadOnly="True" HeaderText="مكفولة" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="288" Name="OrphansNamesSalaries" EnableExpressionEditor="False" IsVisible="True" HeaderText="اسماء/رواتب الايتام" />
+      <Telerik.WinControls.UI.GridViewCalculatorColumn Width="227" Name="Salary" SortOrder="Ascending" EnableExpressionEditor="False" IsVisible="True" HeaderText="المبلغ" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="221" Name="CurrencyShort" EnableExpressionEditor="False" IsVisible="True" HeaderText="العملة" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Name="OrphansSalaries" EnableExpressionEditor="False" IsVisible="False" HeaderText="رواتب الأيتام" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Name="OrphanSalary" EnableExpressionEditor="False" IsVisible="False" HeaderText="مبلغ اليتيم" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Name="BailSalary" EnableExpressionEditor="False" IsVisible="False" HeaderText="مبلغ الكفالة" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Name="BondsManSalary" EnableExpressionEditor="False" IsVisible="False" HeaderText="مبلغ المعيل" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Name="SupporterName" EnableExpressionEditor="False" IsVisible="False" ReadOnly="True" HeaderText="اسم الكفيل" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Name="SupporterAddress" EnableExpressionEditor="False" IsVisible="False" ReadOnly="True" HeaderText="عنوان الكفيل" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="150" Name="SupporterNote" EnableExpressionEditor="False" IsVisible="False" ReadOnly="True" HeaderText="ملاحظات" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Name="PhoneNumber" EnableExpressionEditor="False" IsVisible="False" ReadOnly="True" HeaderText="رقم الهاتف" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Name="MobileNumber" EnableExpressionEditor="False" IsVisible="False" ReadOnly="True" HeaderText="رقم الجوال" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="121" Name="Address" EnableExpressionEditor="False" IsVisible="False" ReadOnly="True" HeaderText="العنوان" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="130" Name="Date" EnableExpressionEditor="False" IsVisible="False" ReadOnly="True" HeaderText="تاريخ" />
+    </Columns>
+    <SortDescriptors>
+      <Telerik.WinControls.Data.SortDescriptor PropertyName="Salary" />
+    </SortDescriptors>
+  </MasterTemplate>
+</RadGridView>

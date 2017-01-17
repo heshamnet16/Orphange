@@ -1,0 +1,16 @@
+D:\Programming\Orphanage\OrphansBackup\XMLMapping\bin\Release\XMLMapping.dll
+D:\Programming\Orphanage\OrphansBackup\XMLMapping\bin\Release\XMLMapping.pdb
+D:\Programming\Orphanage\OrphansBackup\XMLMapping\bin\Release\XMLMapping.xml
+D:\Programming\Orphanage\OrphansBackup\XMLMapping\obj\Release\XMLMapping.Resources.resources
+D:\Programming\Orphanage\OrphansBackup\XMLMapping\obj\Release\XMLMapping.vbproj.GenerateResource.Cache
+D:\Programming\Orphanage\OrphansBackup\XMLMapping\obj\Release\XMLMapping.dll
+D:\Programming\Orphanage\OrphansBackup\XMLMapping\obj\Release\XMLMapping.xml
+D:\Programming\Orphanage\OrphansBackup\XMLMapping\obj\Release\XMLMapping.pdb
+F:\Programming\Orphanage\OrphansBackup\XMLMapping\bin\Release\XMLMapping.dll
+F:\Programming\Orphanage\OrphansBackup\XMLMapping\bin\Release\XMLMapping.pdb
+F:\Programming\Orphanage\OrphansBackup\XMLMapping\bin\Release\XMLMapping.xml
+F:\Programming\Orphanage\OrphansBackup\XMLMapping\obj\Release\XMLMapping.Resources.resources
+F:\Programming\Orphanage\OrphansBackup\XMLMapping\obj\Release\XMLMapping.vbproj.GenerateResource.Cache
+F:\Programming\Orphanage\OrphansBackup\XMLMapping\obj\Release\XMLMapping.dll
+F:\Programming\Orphanage\OrphansBackup\XMLMapping\obj\Release\XMLMapping.xml
+F:\Programming\Orphanage\OrphansBackup\XMLMapping\obj\Release\XMLMapping.pdb

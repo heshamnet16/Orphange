@@ -1,0 +1,16 @@
+D:\Programming\Orphanage\AddressForm\TestAdd1\bin\Release\TestAdd1.exe
+D:\Programming\Orphanage\AddressForm\TestAdd1\bin\Release\TestAdd1.pdb
+D:\Programming\Orphanage\AddressForm\TestAdd1\bin\Release\TestAdd1.xml
+D:\Programming\Orphanage\AddressForm\TestAdd1\bin\Release\AddressForm.dll
+D:\Programming\Orphanage\AddressForm\TestAdd1\bin\Release\LangChanger.dll
+D:\Programming\Orphanage\AddressForm\TestAdd1\bin\Release\AddressForm.pdb
+D:\Programming\Orphanage\AddressForm\TestAdd1\bin\Release\AddressForm.xml
+D:\Programming\Orphanage\AddressForm\TestAdd1\bin\Release\LangChanger.pdb
+D:\Programming\Orphanage\AddressForm\TestAdd1\bin\Release\LangChanger.xml
+D:\Programming\Orphanage\AddressForm\TestAdd1\obj\x86\Release\TestAdd1.vbprojResolveAssemblyReference.cache
+D:\Programming\Orphanage\AddressForm\TestAdd1\obj\x86\Release\TestAdd1.Form1.resources
+D:\Programming\Orphanage\AddressForm\TestAdd1\obj\x86\Release\TestAdd1.Resources.resources
+D:\Programming\Orphanage\AddressForm\TestAdd1\obj\x86\Release\TestAdd1.vbproj.GenerateResource.Cache
+D:\Programming\Orphanage\AddressForm\TestAdd1\obj\x86\Release\TestAdd1.exe
+D:\Programming\Orphanage\AddressForm\TestAdd1\obj\x86\Release\TestAdd1.xml
+D:\Programming\Orphanage\AddressForm\TestAdd1\obj\x86\Release\TestAdd1.pdb

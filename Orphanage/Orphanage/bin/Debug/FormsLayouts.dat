@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Forms>
+  <Form name="frmOrphans">
+    <Size Height="444" Width="780" />
+    <location X="493" Y="19" />
+    <WindowState>0</WindowState>
+    <Font Italic="False" name="Segoe UI" bold="False" size="8.25" />
+  </Form>
+  <Form name="FrmMothers">
+    <Size Height="351" Width="704" />
+    <location X="130" Y="130" />
+    <WindowState>0</WindowState>
+    <Font Italic="False" name="Segoe UI" bold="False" size="8.25" />
+  </Form>
+  <Form name="FrmFamiles">
+    <Size Height="431" Width="899" />
+    <location X="196" Y="39" />
+    <WindowState>0</WindowState>
+    <Font Italic="False" name="Segoe UI" bold="False" size="8.25" />
+  </Form>
+  <Form name="FrmBails">
+    <Size Height="422" Width="593" />
+    <location X="245" Y="81" />
+    <WindowState>0</WindowState>
+    <Font Italic="False" name="Segoe UI" bold="False" size="8.25" />
+  </Form>
+  <Form name="FrmBailsSelector">
+    <Size Height="407" Width="315" />
+    <location X="26" Y="26" />
+    <WindowState>0</WindowState>
+    <Font Italic="False" name="Segoe UI" bold="False" size="8.25" />
+  </Form>
+  <Form name="FrmBoxChooser">
+    <Size Height="405" Width="317" />
+    <location X="52" Y="52" />
+    <WindowState>0</WindowState>
+    <Font Italic="False" name="Segoe UI" bold="False" size="8.25" />
+  </Form>
+  <Form name="FrmShowSalaries">
+    <Size Height="0" Width="0" />
+    <location X="-8" Y="-31" />
+    <WindowState>2</WindowState>
+    <Font Italic="False" name="Segoe UI" bold="False" size="8.25" />
+  </Form>
+  <Form name="FrmSupporters">
+    <Size Height="434" Width="995" />
+    <location X="91" Y="43" />
+    <WindowState>0</WindowState>
+    <Font Italic="False" name="Segoe UI" bold="False" size="8.25" />
+  </Form>
+  <Form name="FrmBondsMen">
+    <Size Height="421" Width="592" />
+    <location X="0" Y="0" />
+    <WindowState>0</WindowState>
+    <Font Italic="False" name="Segoe UI" bold="False" size="8.25" />
+  </Form>
+  <Form name="FrmFathers">
+    <Size Height="350" Width="702" />
+    <location X="156" Y="156" />
+    <WindowState>0</WindowState>
+    <Font Italic="false" name="Segoe UI" bold="false" size="8.25" />
+  </Form>
+  <Form name="FrmTransforms">
+    <Size Height="387" Width="555" />
+    <location X="78" Y="78" />
+    <WindowState>0</WindowState>
+    <Font Italic="False" name="Microsoft Sans Serif" bold="False" size="8.25" />
+  </Form>
+  <Form name="FrmBoxes">
+    <Size Height="358" Width="1053" />
+    <location X="99" Y="38" />
+    <WindowState>0</WindowState>
+    <Font Italic="False" name="Microsoft Sans Serif" bold="False" size="8.25" />
+  </Form>
+  <Form name="FrmBox">
+    <Size Height="353" Width="278" />
+    <location X="0" Y="0" />
+    <WindowState>0</WindowState>
+    <Font Italic="false" name="Segoe UI" bold="false" size="8.25" />
+  </Form>
+</Forms>

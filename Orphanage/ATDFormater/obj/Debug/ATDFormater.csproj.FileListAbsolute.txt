@@ -1,0 +1,5 @@
+D:\Programming\Orphanage\Orphanage\ATDFormater\bin\Debug\ATDFormater.dll
+D:\Programming\Orphanage\Orphanage\ATDFormater\bin\Debug\ATDFormater.pdb
+D:\Programming\Orphanage\Orphanage\ATDFormater\obj\Debug\ATDFormater.dll
+D:\Programming\Orphanage\Orphanage\ATDFormater\obj\Debug\ATDFormater.pdb
+D:\Programming\Orphanage\Orphanage\ATDFormater\obj\Debug\ATDFormater.csprojResolveAssemblyReference.cache

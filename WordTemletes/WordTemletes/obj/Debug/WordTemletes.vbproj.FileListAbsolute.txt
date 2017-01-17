@@ -1,0 +1,8 @@
+D:\Programming\Orphanage\WordTemletes\WordTemletes\bin\Debug\WordTemletes.dll
+D:\Programming\Orphanage\WordTemletes\WordTemletes\bin\Debug\WordTemletes.pdb
+D:\Programming\Orphanage\WordTemletes\WordTemletes\bin\Debug\WordTemletes.xml
+D:\Programming\Orphanage\WordTemletes\WordTemletes\obj\Debug\WordTemletes.Resources.resources
+D:\Programming\Orphanage\WordTemletes\WordTemletes\obj\Debug\WordTemletes.vbproj.GenerateResource.Cache
+D:\Programming\Orphanage\WordTemletes\WordTemletes\obj\Debug\WordTemletes.dll
+D:\Programming\Orphanage\WordTemletes\WordTemletes\obj\Debug\WordTemletes.xml
+D:\Programming\Orphanage\WordTemletes\WordTemletes\obj\Debug\WordTemletes.pdb

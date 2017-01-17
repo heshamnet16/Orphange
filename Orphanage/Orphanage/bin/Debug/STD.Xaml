@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Schedule xmlns="Timing.schedule">
+  <IsON>false</IsON>
+  <NextDate>2015/04/24-11:00</NextDate>
+  <IsWeekly>false</IsWeekly>
+  <IsDaily>false</IsDaily>
+  <IsMonthly>false</IsMonthly>
+  <OnSatrday>false</OnSatrday>
+  <OnSunday>false</OnSunday>
+  <OnMonday>false</OnMonday>
+  <OnTuesday>false</OnTuesday>
+  <OnWednesday>false</OnWednesday>
+  <OnThursday>false</OnThursday>
+  <OnFriday>false</OnFriday>
+  <Setting>
+    <MaxCopies>1</MaxCopies>
+    <ReplaceOldDbs>false</ReplaceOldDbs>
+    <FileName></FileName>
+    <FolderName></FolderName>
+    <MakeAFolderDate>false</MakeAFolderDate>
+  </Setting>
+</Schedule>

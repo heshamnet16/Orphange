@@ -1,0 +1,10 @@
+D:\Programming\Orphanage\WordTemletes\WordTemletes\bin\Release\WordTemletes.dll
+D:\Programming\Orphanage\WordTemletes\WordTemletes\bin\Release\WordTemletes.pdb
+D:\Programming\Orphanage\WordTemletes\WordTemletes\bin\Release\WordTemletes.xml
+D:\Programming\Orphanage\WordTemletes\WordTemletes\bin\Release\DocumentFormat.OpenXml.dll
+D:\Programming\Orphanage\WordTemletes\WordTemletes\bin\Release\DocumentFormat.OpenXml.xml
+D:\Programming\Orphanage\WordTemletes\WordTemletes\obj\Release\WordTemletes.Resources.resources
+D:\Programming\Orphanage\WordTemletes\WordTemletes\obj\Release\WordTemletes.vbproj.GenerateResource.Cache
+D:\Programming\Orphanage\WordTemletes\WordTemletes\obj\Release\WordTemletes.dll
+D:\Programming\Orphanage\WordTemletes\WordTemletes\obj\Release\WordTemletes.xml
+D:\Programming\Orphanage\WordTemletes\WordTemletes\obj\Release\WordTemletes.pdb

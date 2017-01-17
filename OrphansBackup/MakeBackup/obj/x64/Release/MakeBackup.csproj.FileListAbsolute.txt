@@ -1,0 +1,5 @@
+D:\Programming\Orphanage\OrphansBackup\MakeBackup\bin\x64\Release\MakeBackup.exe
+D:\Programming\Orphanage\OrphansBackup\MakeBackup\bin\x64\Release\SqlBackups.dll
+D:\Programming\Orphanage\OrphansBackup\MakeBackup\bin\x64\Release\SqlBackups.pdb
+D:\Programming\Orphanage\OrphansBackup\MakeBackup\obj\x64\Release\MakeBackup.csprojResolveAssemblyReference.cache
+D:\Programming\Orphanage\OrphansBackup\MakeBackup\obj\x64\Release\MakeBackup.exe

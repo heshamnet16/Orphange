@@ -1,0 +1,374 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database EntityNamespace="OrphanageClasses" ContextNamespace="OrphanageDB" Class="Odb" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.\SQLEXPRESS;Initial Catalog=OrphansDB;Integrated Security=True" SettingsObjectName="Orphanage.My.MySettings" SettingsPropertyName="OrphansDBConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="Orphans">
+    <Type Name="Orphan">
+      <Column Name="ID" Type="System.Int32" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Member="Name_ID" Type="System.Int32" CanBeNull="false" />
+      <Column Name="Age" Type="System.Int32" CanBeNull="true" />
+      <Column Name="Birthday" Type="System.DateTime" CanBeNull="false" />
+      <Column Name="IsExcluded" Type="System.Boolean" CanBeNull="true" />
+      <Column Name="Education_ID" Type="System.Int32" CanBeNull="true" />
+      <Column Name="Health_ID" Type="System.Int32" CanBeNull="true" />
+      <Column Name="FullPhoto" Type="System.Byte[]" DbType="varbinary(MAX)" CanBeNull="true" />
+      <Column Name="FacePhoto" Type="System.Byte[]" DbType="varbinary(MAX)" CanBeNull="true" />
+      <Column Name="IdentityNumber" Type="System.UInt64" CanBeNull="true" />
+      <Column Name="FootSize" Type="System.Byte" CanBeNull="true" />
+      <Column Name="Weight" Type="System.Byte" CanBeNull="true" />
+      <Column Name="Tallness" Type="System.Byte" CanBeNull="true" />
+      <Column Name="Family_ID" Type="System.Int32" CanBeNull="false" />
+      <Column Name="IsBailed" Type="System.Boolean" CanBeNull="false" />
+      <Column Name="Bail_ID" Type="System.Int32" CanBeNull="true" />
+      <Column Name="BondsMan_ID" Type="System.Int32" CanBeNull="false" />
+      <Column Name="Supporter_ID" Member="Suppoter_ID" Type="System.Int32" CanBeNull="true" />
+      <Column Name="Color_Mark" Type="System.Int64" CanBeNull="true" />
+      <Column Name="User_ID" Type="System.Int32" CanBeNull="false" />
+      <Column Name="RegDate" Type="System.DateTime" CanBeNull="false" />
+      <Column Name="Story" Type="System.String" CanBeNull="true" />
+      <Column Name="FingerPrint" Type="System.Byte[]" DbType="varbinary(MAX)" CanBeNull="true" />
+      <Column Name="BondsManRel" Member="BondsManRelationship" Type="System.String" CanBeNull="false" />
+      <Column Name="BirthCertificate_Photo" Type="System.Byte[]" DbType="varbinary(MAX)" CanBeNull="true" />
+      <Column Name="FamilyCardPagePhoto" Type="System.Byte[]" DbType="varbinary(MAX)" CanBeNull="true" />
+      <Column Name="Gender" Type="System.String" CanBeNull="false" />
+      <Column Name="Kaid" Type="System.Int32" CanBeNull="true" />
+      <Column Name="Birthplace" Member="BirthPlace" Type="System.String" CanBeNull="true" />
+      <Association Name="Orphan_Bill" Member="Bills" ThisKey="ID" OtherKey="Orphan_ID" Type="Bill" />
+      <Association Name="Family_Orphan" Member="Family" ThisKey="Family_ID" OtherKey="ID" Type="Family" IsForeignKey="true" />
+      <Association Name="Name_Orphan" Member="Name" ThisKey="Name_ID" OtherKey="ID" Type="Name" IsForeignKey="true" />
+      <Association Name="Study_Orphan" Member="Study" ThisKey="Education_ID" OtherKey="ID" Type="Study" IsForeignKey="true" />
+      <Association Name="Healthy_Orphan" Member="Healthy" ThisKey="Health_ID" OtherKey="ID" Type="Healthy" IsForeignKey="true" />
+      <Association Name="Bail_Orphan" Member="Bail" ThisKey="Bail_ID" OtherKey="ID" Type="Bail" IsForeignKey="true" />
+      <Association Name="BondsMan_Orphan" Member="BondsMan" ThisKey="BondsMan_ID" OtherKey="ID" Type="BondsMan" IsForeignKey="true" />
+      <Association Name="Supporter_Orphan" Member="Supporter" ThisKey="Suppoter_ID" OtherKey="ID" Type="Supporter" IsForeignKey="true" />
+      <Association Name="User_Orphan" Member="User" ThisKey="User_ID" OtherKey="ID" Type="User" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="Famlies" Member="Families">
+    <Type Name="Family">
+      <Column Name="ID" Type="System.Int32" IsReadOnly="true" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Mother_ID" Type="System.Int32" CanBeNull="false" />
+      <Column Name="Father_Id" Member="Father_ID" Type="System.Int32" CanBeNull="false" />
+      <Column Name="IsBailed" Member="IsBaild" Type="System.Boolean" CanBeNull="false" />
+      <Column Name="Bail_ID" Member="Baild_ID" Type="System.Int32" CanBeNull="true" />
+      <Column Name="FamilyCardPhoto" Type="System.Byte[]" DbType="varbinary(MAX)" CanBeNull="true" />
+      <Column Name="FamilyCardPhotoP2" Type="System.Byte[]" DbType="varbinary(MAX)" CanBeNull="true" />
+      <Column Name="Address_ID" Type="System.Int32" CanBeNull="true" />
+      <Column Name="Redidence_State" Member="Residece_Sate" Type="System.String" CanBeNull="true" />
+      <Column Name="Residence_Type" Member="Residenc_Type" Type="System.String" CanBeNull="true" />
+      <Column Name="IsRefugee" Type="System.Boolean" CanBeNull="false" />
+      <Column Name="FamilyCard_Num" Type="System.String" CanBeNull="true" />
+      <Column Name="Finncial_State" Member="Finncial_Sate" Type="System.String" CanBeNull="true" />
+      <Column Name="Note" Type="System.String" CanBeNull="true" />
+      <Column Name="User_ID" Type="System.Int32" CanBeNull="false" />
+      <Column Name="RegDate" Type="System.DateTime" CanBeNull="false" />
+      <Column Name="Color_Mark" Type="System.Int64" CanBeNull="true" />
+      <Column Name="Address_ID2" Type="System.Int32" CanBeNull="true" />
+      <Column Name="isExcluded" Member="IsExcluded" Type="System.Boolean" CanBeNull="false" />
+      <Association Name="Family_Orphan" Member="Orphans" ThisKey="ID" OtherKey="Family_ID" Type="Orphan" />
+      <Association Name="Family_Bill" Member="Bills" ThisKey="ID" OtherKey="Family_ID" Type="Bill" />
+      <Association Name="Family_UnOrphan" Member="UnOrphans" ThisKey="ID" OtherKey="Family_ID" Type="UnOrphan" />
+      <Association Name="Father_Family" Member="Father" ThisKey="Father_ID" OtherKey="ID" Type="Father" IsForeignKey="true" />
+      <Association Name="Mother_Family" Member="Mother" ThisKey="Mother_ID" OtherKey="ID" Type="Mother" IsForeignKey="true" />
+      <Association Name="Bail_Family" Member="Bail" ThisKey="Baild_ID" OtherKey="ID" Type="Bail" IsForeignKey="true" />
+      <Association Name="Address_Family" Member="Address" ThisKey="Address_ID" OtherKey="ID" Type="Address" IsForeignKey="true" />
+      <Association Name="User_Family" Member="User" ThisKey="User_ID" OtherKey="ID" Type="User" IsForeignKey="true" />
+      <Association Name="Address_Family1" Member="Address1" ThisKey="Address_ID2" OtherKey="ID" Type="Address" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="Fathers">
+    <Type Name="Father">
+      <Column Name="ID" Type="System.Int32" IsReadOnly="true" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name_ID" Type="System.Int32" CanBeNull="false" />
+      <Column Name="Birthday" Type="System.DateTime" CanBeNull="false" />
+      <Column Name="Dieday" Type="System.DateTime" CanBeNull="false" />
+      <Column Name="Photo" Type="System.Byte[]" DbType="varbinary(MAX)" CanBeNull="true" />
+      <Column Name="DeathCertificate_Photo" Type="System.Byte[]" DbType="varbinary(MAX)" CanBeNull="true" />
+      <Column Name="Jop" Type="System.String" CanBeNull="true" />
+      <Column Name="Story" Type="System.String" CanBeNull="true" />
+      <Column Name="DeathResone" Type="System.String" CanBeNull="true" />
+      <Column Name="Note" Type="System.String" CanBeNull="true" />
+      <Column Name="User_ID" Type="System.Int32" CanBeNull="false" />
+      <Column Name="RegDate" Type="System.DateTime" CanBeNull="false" />
+      <Column Name="Color_Mark" Type="System.Int64" CanBeNull="true" />
+      <Column Name="IdentityCard_ID" Type="System.UInt64" CanBeNull="false" />
+      <Association Name="Father_Family" Member="Families" ThisKey="ID" OtherKey="Father_ID" Type="Family" />
+      <Association Name="Name_Father" Member="Name" ThisKey="Name_ID" OtherKey="ID" Type="Name" IsForeignKey="true" />
+      <Association Name="User_Father" Member="User" ThisKey="User_ID" OtherKey="ID" Type="User" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="Mothers">
+    <Type Name="Mother">
+      <Column Name="ID" Type="System.Int32" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name_Id" Member="Name_ID" Type="System.Int32" CanBeNull="false" />
+      <Column Name="Birthday" Type="System.DateTime" CanBeNull="false" />
+      <Column Name="IsDead" Type="System.Boolean" CanBeNull="false" />
+      <Column Name="Dieday" Type="System.DateTime" CanBeNull="true" />
+      <Column Name="IdentityCard_ID" Member="IdntityCard_ID" Type="System.UInt64" CanBeNull="true" />
+      <Column Name="IdentityCard_Photo" Type="System.Byte[]" DbType="varbinary(MAX)" CanBeNull="true" />
+      <Column Name="IdentityCard_Photo2" Type="System.Byte[]" DbType="varbinary(MAX)" CanBeNull="true" />
+      <Column Name="Address_ID" Type="System.Int32" CanBeNull="true" />
+      <Column Name="IsMarried" Type="System.Boolean" CanBeNull="false" />
+      <Column Name="HusbandName" Member="Husband_Name" Storage="_Husband_NameID" Type="System.String" CanBeNull="true" />
+      <Column Name="IsOwnOrphans" Type="System.Boolean" CanBeNull="false" />
+      <Column Name="Jop" Type="System.String" CanBeNull="true" />
+      <Column Name="Salary" Type="System.Decimal" CanBeNull="true" />
+      <Column Name="Note" Type="System.String" CanBeNull="true" />
+      <Column Name="Story" Type="System.String" CanBeNull="true" />
+      <Column Name="User_ID" Member="User_Id" Type="System.Int32" CanBeNull="false" />
+      <Column Name="RegDate" Type="System.DateTime" CanBeNull="false" />
+      <Column Name="Color_Mark" Type="System.Int64" CanBeNull="true" />
+      <Association Name="Mother_Family" Member="Families" ThisKey="ID" OtherKey="Mother_ID" Type="Family" />
+      <Association Name="Name_Mother" Member="Name" ThisKey="Name_ID" OtherKey="ID" Type="Name" IsForeignKey="true" />
+      <Association Name="Address_Mother" Member="Address" ThisKey="Address_ID" OtherKey="ID" Type="Address" IsForeignKey="true" />
+      <Association Name="User_Mother" Member="User" ThisKey="User_Id" OtherKey="ID" Type="User" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="BondsMen" Member="BondsMans">
+    <Type Name="BondsMan">
+      <Column Name="ID" Type="System.Int32" IsReadOnly="true" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name_Id" Member="Name_ID" Type="System.Int32" CanBeNull="false" />
+      <Column Name="Address_ID" Type="System.Int32" CanBeNull="true" />
+      <Column Name="IdentityCard_ID" Type="System.UInt64" CanBeNull="true" />
+      <Column Name="IdentityCard_Photo" Type="System.Byte[]" DbType="varbinary(MAX)" CanBeNull="true" />
+      <Column Name="IdentityCard_photo2" Member="IdentityCard_Photo2" Type="System.Byte[]" DbType="varbinary(MAX)" CanBeNull="true" />
+      <Column Name="Jop" Type="System.String" CanBeNull="true" />
+      <Column Name="Income" Type="System.Decimal" CanBeNull="true" />
+      <Column Name="Note" Type="System.String" CanBeNull="true" />
+      <Column Name="User_ID" Type="System.Int32" CanBeNull="false" />
+      <Column Name="RegDate" Type="System.DateTime" CanBeNull="false" />
+      <Column Name="Color_Mark" Type="System.Int64" CanBeNull="true" />
+      <Column Name="FingerPrint" Type="System.Byte[]" DbType="varbinary(MAX)" CanBeNull="true" />
+      <Association Name="BondsMan_Orphan" Member="Orphans" ThisKey="ID" OtherKey="BondsMan_ID" Type="Orphan" />
+      <Association Name="Name_BondsMan" Member="Name" ThisKey="Name_ID" OtherKey="ID" Type="Name" IsForeignKey="true" />
+      <Association Name="Address_BondsMan" Member="Address" ThisKey="Address_ID" OtherKey="ID" Type="Address" IsForeignKey="true" />
+      <Association Name="User_BondsMan" Member="User" ThisKey="User_ID" OtherKey="ID" Type="User" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="Supporters">
+    <Type Name="Supporter">
+      <Column Name="ID" Type="System.Int32" IsReadOnly="true" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name_ID" Type="System.Int32" CanBeNull="false" />
+      <Column Name="Address_ID" Type="System.Int32" CanBeNull="true" />
+      <Column Name="Box_ID" Type="System.Int32" CanBeNull="false" />
+      <Column Name="Color_Mark" Type="System.Int64" CanBeNull="true" />
+      <Column Name="Is_Still_Suppo" Member="Is_Still_Support" Type="System.Boolean" CanBeNull="false" />
+      <Column Name="Is_Monthly_sup" Member="Is_Monthly_Support" Type="System.Boolean" CanBeNull="false" />
+      <Column Name="Is_Family_sup" Member="Is_Family_Support" Type="System.Boolean" CanBeNull="false" />
+      <Column Name="Note" Type="System.String" CanBeNull="true" />
+      <Column Name="User_ID" Type="System.Int32" CanBeNull="false" />
+      <Column Name="RegDate" Type="System.DateTime" CanBeNull="false" />
+      <Association Name="Supporter_Orphan" Member="Orphans" ThisKey="ID" OtherKey="Suppoter_ID" Type="Orphan" />
+      <Association Name="Supporter_Bail" Member="Bails" ThisKey="ID" OtherKey="Supporter_ID" Type="Bail" />
+      <Association Name="Name_Supporter" Member="Name" ThisKey="Name_ID" OtherKey="ID" Type="Name" IsForeignKey="true" />
+      <Association Name="Address_Supporter" Member="Address" ThisKey="Address_ID" OtherKey="ID" Type="Address" IsForeignKey="true" />
+      <Association Name="Box_Supporter" Member="Box" ThisKey="Box_ID" OtherKey="ID" Type="Box" IsForeignKey="true" />
+      <Association Name="User_Supporter" Member="User" ThisKey="User_ID" OtherKey="ID" Type="User" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="Names">
+    <Type Name="Name">
+      <Column Name="ID" Type="System.Int32" IsReadOnly="true" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="First" Type="System.String" CanBeNull="false" />
+      <Column Name="Father" Type="System.String" CanBeNull="true" />
+      <Column Name="Last" Type="System.String" CanBeNull="true" />
+      <Column Name="EName" Type="System.String" CanBeNull="true" />
+      <Column Name="EFather" Type="System.String" CanBeNull="true" />
+      <Column Name="ELast" Type="System.String" CanBeNull="true" />
+      <Association Name="Name_Orphan" Member="Orphans" ThisKey="ID" OtherKey="Name_ID" Type="Orphan" />
+      <Association Name="Name_Father" Member="Fathers" ThisKey="ID" OtherKey="Name_ID" Type="Father" />
+      <Association Name="Name_Mother" Member="Mothers" ThisKey="ID" OtherKey="Name_ID" Type="Mother" />
+      <Association Name="Name_BondsMan" Member="BondsMans" ThisKey="ID" OtherKey="Name_ID" Type="BondsMan" />
+      <Association Name="Name_Supporter" Member="Supporters" ThisKey="ID" OtherKey="Name_ID" Type="Supporter" />
+      <Association Name="Name_User" Member="Users" ThisKey="ID" OtherKey="Name_ID" Type="User" />
+      <Association Name="Name_UnOrphan" Member="UnOrphans" ThisKey="ID" OtherKey="Name_ID" Type="UnOrphan" />
+    </Type>
+  </Table>
+  <Table Name="Addresses">
+    <Type Name="Address">
+      <Column Name="ID" Type="System.Int32" IsReadOnly="true" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Country" Type="System.String" CanBeNull="true" />
+      <Column Name="City" Type="System.String" CanBeNull="true" />
+      <Column Name="Town" Type="System.String" CanBeNull="true" />
+      <Column Name="Street" Type="System.String" CanBeNull="true" />
+      <Column Name="Home_Phone" Type="System.String" CanBeNull="true" />
+      <Column Name="Cell_Phone" Type="System.String" CanBeNull="true" />
+      <Column Name="Work_phone" Member="Work_Phone" Type="System.String" CanBeNull="true" />
+      <Column Name="Fax" Type="System.String" CanBeNull="true" />
+      <Column Name="Email" Type="System.String" CanBeNull="true" />
+      <Column Name="Facebook" Type="System.String" CanBeNull="true" />
+      <Column Name="Twitter" Type="System.String" CanBeNull="true" />
+      <Column Name="Note" Type="System.String" CanBeNull="true" />
+      <Association Name="Address_Family" Member="Families" ThisKey="ID" OtherKey="Address_ID" Type="Family" />
+      <Association Name="Address_Family1" Member="Families1" ThisKey="ID" OtherKey="Address_ID2" Type="Family" />
+      <Association Name="Address_Mother" Member="Mothers" ThisKey="ID" OtherKey="Address_ID" Type="Mother" />
+      <Association Name="Address_BondsMan" Member="BondsMans" ThisKey="ID" OtherKey="Address_ID" Type="BondsMan" />
+      <Association Name="Address_Supporter" Member="Supporters" ThisKey="ID" OtherKey="Address_ID" Type="Supporter" />
+      <Association Name="Address_User" Member="Users" ThisKey="ID" OtherKey="Address_ID" Type="User" />
+      <Association Name="Address_UnOrphan" Member="UnOrphans" ThisKey="ID" OtherKey="Address_ID" Type="UnOrphan" />
+    </Type>
+  </Table>
+  <Table Name="Healthies">
+    <Type Name="Healthy">
+      <Column Name="ID" Type="System.Int32" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" CanBeNull="true" />
+      <Column Name="Medicen" Type="System.String" CanBeNull="true" />
+      <Column Name="Cost" Type="System.Decimal" CanBeNull="true" />
+      <Column Name="SupervisorDoctor" Type="System.String" CanBeNull="true" />
+      <Column Name="Note" Type="System.String" CanBeNull="true" />
+      <Column Name="ReporteFile" Type="System.Byte[]" DbType="varbinary(MAX)" CanBeNull="true" />
+      <Association Name="Healthy_Orphan" Member="Orphans" ThisKey="ID" OtherKey="Health_ID" Type="Orphan" />
+    </Type>
+  </Table>
+  <Table Name="Studies">
+    <Type Name="Study">
+      <Column Name="ID" Type="System.Int32" IsReadOnly="true" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Stage" Type="System.String" CanBeNull="false" />
+      <Column Name="School" Type="System.String" CanBeNull="true" />
+      <Column Name="Univercity" Type="System.String" CanBeNull="true" />
+      <Column Name="Collage" Type="System.String" CanBeNull="true" />
+      <Column Name="MonthlyCost" Type="System.Decimal" CanBeNull="true" />
+      <Column Name="DegreesRate" Type="System.Decimal" CanBeNull="true" />
+      <Column Name="Reasons" Member="Resons" Type="System.String" CanBeNull="true" />
+      <Column Name="Certificate_Photo1" Type="System.Byte[]" DbType="varbinary(MAX)" CanBeNull="true" />
+      <Column Name="Certificate_Photo2" Type="System.Byte[]" DbType="varbinary(MAX)" CanBeNull="true" />
+      <Column Name="Note" Type="System.String" CanBeNull="true" />
+      <Association Name="Study_Orphan" Member="Orphans" ThisKey="ID" OtherKey="Education_ID" Type="Orphan" />
+    </Type>
+  </Table>
+  <Table Name="Users">
+    <Type Name="User">
+      <Column Name="ID" Type="System.Int32" IsReadOnly="true" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name_ID" Type="System.Int32" CanBeNull="true" />
+      <Column Name="UserName" Type="System.String" CanBeNull="false" />
+      <Column Name="Password" Type="System.String" CanBeNull="false" />
+      <Column Name="CanDelete" Type="System.Boolean" CanBeNull="false" />
+      <Column Name="CanRead" Type="System.Boolean" CanBeNull="false" />
+      <Column Name="CanAdd" Type="System.Boolean" CanBeNull="false" />
+      <Column Name="CanDeposit" Type="System.Boolean" CanBeNull="false" />
+      <Column Name="CanDraw" Type="System.Boolean" CanBeNull="false" />
+      <Column Name="Address_ID" Type="System.Int32" CanBeNull="true" />
+      <Column Name="RegDate" Type="System.DateTime" CanBeNull="false" />
+      <Column Name="Note" Type="System.String" CanBeNull="true" />
+      <Column Name="IsAdmin" Type="System.Boolean" CanBeNull="false" />
+      <Association Name="User_Orphan" Member="Orphans" ThisKey="ID" OtherKey="User_ID" Type="Orphan" />
+      <Association Name="User_Family" Member="Families" ThisKey="ID" OtherKey="User_ID" Type="Family" />
+      <Association Name="User_Father" Member="Fathers" ThisKey="ID" OtherKey="User_ID" Type="Father" />
+      <Association Name="User_Mother" Member="Mothers" ThisKey="ID" OtherKey="User_Id" Type="Mother" />
+      <Association Name="User_BondsMan" Member="BondsMans" ThisKey="ID" OtherKey="User_ID" Type="BondsMan" />
+      <Association Name="User_Supporter" Member="Supporters" ThisKey="ID" OtherKey="User_ID" Type="Supporter" />
+      <Association Name="User_Box" Member="Boxes" ThisKey="ID" OtherKey="User_ID" Type="Box" />
+      <Association Name="User_Bill" Member="Bills" ThisKey="ID" OtherKey="User_ID" Type="Bill" />
+      <Association Name="User_Bail" Member="Bails" ThisKey="ID" OtherKey="User_ID" Type="Bail" />
+      <Association Name="User_Transform" Member="Transforms" ThisKey="ID" OtherKey="User_ID" Type="Transform" />
+      <Association Name="User_UnOrphan" Member="UnOrphans" ThisKey="ID" OtherKey="User_ID" Type="UnOrphan" />
+      <Association Name="Name_User" Member="Name" ThisKey="Name_ID" OtherKey="ID" Type="Name" IsForeignKey="true" />
+      <Association Name="Address_User" Member="Address" ThisKey="Address_ID" OtherKey="ID" Type="Address" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="Boxes">
+    <Type Name="Box">
+      <Column Name="ID" Type="System.Int32" IsReadOnly="true" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" CanBeNull="false" />
+      <Column Name="Cur_Name" Member="Currency_Name" Type="System.String" CanBeNull="false" />
+      <Column Name="Cur_Short" Member="Currency_Short" Type="System.String" CanBeNull="false" />
+      <Column Name="AMount" Member="Amount" Type="System.Decimal" CanBeNull="false" />
+      <Column Name="Is_Positive" Type="System.Boolean" CanBeNull="false" />
+      <Column Name="Note" Type="System.String" CanBeNull="true" />
+      <Column Name="User_ID" Type="System.Int32" CanBeNull="false" />
+      <Column Name="RegDate" Type="System.DateTime" CanBeNull="false" />
+      <Association Name="Box_Supporter" Member="Supporters" ThisKey="ID" OtherKey="Box_ID" Type="Supporter" />
+      <Association Name="Box_Bill" Member="Bills" ThisKey="ID" OtherKey="Box_ID" Type="Bill" />
+      <Association Name="Box_Bail" Member="Bails" ThisKey="ID" OtherKey="Box_ID" Type="Bail" />
+      <Association Name="Box_Transform" Member="Transforms" ThisKey="ID" OtherKey="SourceBox_ID" Type="Transform" />
+      <Association Name="Box_Transform1" Member="Transforms1" ThisKey="ID" OtherKey="DestinationBox_ID" Type="Transform" />
+      <Association Name="User_Box" Member="User" ThisKey="User_ID" OtherKey="ID" Type="User" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="Billes" Member="Bills">
+    <Type Name="Bill">
+      <Column Name="ID" Type="System.Int32" IsReadOnly="true" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Box_ID" Type="System.Int32" CanBeNull="false" />
+      <Column Name="Bail_Id" Member="Bail_ID" Type="System.Int32" CanBeNull="true" />
+      <Column Name="Orphan_ID" Type="System.Int32" CanBeNull="true" />
+      <Column Name="Family_ID" Type="System.Int32" CanBeNull="true" />
+      <Column Name="Amount" Type="System.Decimal" CanBeNull="false" />
+      <Column Name="IsDeposite" Type="System.Boolean" CanBeNull="false" />
+      <Column Name="Photo" Type="System.Byte[]" DbType="varbinary(MAX)" CanBeNull="true" />
+      <Column Name="Bill_Number" Type="System.UInt64" CanBeNull="true" />
+      <Column Name="Name" Type="System.String" CanBeNull="true" />
+      <Column Name="Bill_Date" Type="System.DateTime" CanBeNull="false" />
+      <Column Name="Details" Type="System.String" CanBeNull="true" />
+      <Column Name="Note" Type="System.String" CanBeNull="true" />
+      <Column Name="User_ID" Type="System.Int32" CanBeNull="false" />
+      <Column Name="RegDate" Type="System.DateTime" CanBeNull="false" />
+      <Association Name="Bail_Bill" Member="Bail" ThisKey="Bail_ID" OtherKey="ID" Type="Bail" IsForeignKey="true" />
+      <Association Name="Box_Bill" Member="Box" ThisKey="Box_ID" OtherKey="ID" Type="Box" IsForeignKey="true" />
+      <Association Name="Orphan_Bill" Member="Orphan" ThisKey="Orphan_ID" OtherKey="ID" Type="Orphan" IsForeignKey="true" />
+      <Association Name="Family_Bill" Member="Family" ThisKey="Family_ID" OtherKey="ID" Type="Family" IsForeignKey="true" />
+      <Association Name="User_Bill" Member="User" ThisKey="User_ID" OtherKey="ID" Type="User" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="Bails">
+    <Type Name="Bail">
+      <Column Name="ID" Type="System.Int32" IsReadOnly="true" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Supporter_ID" Type="System.Int32" CanBeNull="true" />
+      <Column Name="Amount" Type="System.Decimal" CanBeNull="false" />
+      <Column Name="Box_ID" Type="System.Int32" CanBeNull="false" />
+      <Column Name="Is_Family" Type="System.Boolean" CanBeNull="false" />
+      <Column Name="Start_Date" Type="System.DateTime" CanBeNull="true" />
+      <Column Name="End_Date" Type="System.DateTime" CanBeNull="true" />
+      <Column Name="Note" Type="System.String" CanBeNull="true" />
+      <Column Name="User_ID" Type="System.Int32" CanBeNull="false" />
+      <Column Name="RegDate" Type="System.DateTime" CanBeNull="false" />
+      <Column Name="Is_Ended" Type="System.Boolean" CanBeNull="false" />
+      <Column Name="IsMonthly" Type="System.Boolean" CanBeNull="false" />
+      <Association Name="Bail_Orphan" Member="Orphans" ThisKey="ID" OtherKey="Bail_ID" Type="Orphan" />
+      <Association Name="Bail_Family" Member="Families" ThisKey="ID" OtherKey="Baild_ID" Type="Family" />
+      <Association Name="Bail_Bill" Member="Bills" ThisKey="ID" OtherKey="Bail_ID" Type="Bill" />
+      <Association Name="Supporter_Bail" Member="Supporter" ThisKey="Supporter_ID" OtherKey="ID" Type="Supporter" IsForeignKey="true" />
+      <Association Name="Box_Bail" Member="Box" ThisKey="Box_ID" OtherKey="ID" Type="Box" IsForeignKey="true" />
+      <Association Name="User_Bail" Member="User" ThisKey="User_ID" OtherKey="ID" Type="User" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="Transforms">
+    <Type Name="Transform">
+      <Column Name="ID" Type="System.Int32" IsReadOnly="true" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="SourceBox_Id" Member="SourceBox_ID" Type="System.Int32" CanBeNull="false" />
+      <Column Name="DestinationBox_ID" Type="System.Int32" CanBeNull="false" />
+      <Column Name="Source_Amount" Type="System.Decimal" CanBeNull="false" />
+      <Column Name="Destination_Amount" Member="Des_Amount" Type="System.Decimal" CanBeNull="false" />
+      <Column Name="Tranc_Price" Type="System.Decimal" CanBeNull="false" />
+      <Column Name="Photo" Type="System.Byte[]" DbType="varbinary(MAX)" CanBeNull="true" />
+      <Column Name="Details" Type="System.String" CanBeNull="true" />
+      <Column Name="Note" Type="System.String" CanBeNull="true" />
+      <Column Name="User_ID" Type="System.Int32" CanBeNull="false" />
+      <Column Name="RegDate" Type="System.DateTime" CanBeNull="false" />
+      <Column Name="Tranc_Numb" Member="Tranc_Number" Type="System.UInt64" CanBeNull="true" />
+      <Column Name="Tranc_Date" Type="System.DateTime" CanBeNull="false" />
+      <Association Name="Box_Transform" Member="Box" ThisKey="SourceBox_ID" OtherKey="ID" Type="Box" IsForeignKey="true" />
+      <Association Name="Box_Transform1" Member="Box1" ThisKey="DestinationBox_ID" OtherKey="ID" Type="Box" IsForeignKey="true" />
+      <Association Name="User_Transform" Member="User" ThisKey="User_ID" OtherKey="ID" Type="User" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="UnOrphans">
+    <Type Name="UnOrphan">
+      <Column Name="ID" Type="System.Int32" IsReadOnly="true" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="NameID" Member="Name_ID" Type="System.Int32" CanBeNull="false" />
+      <Column Name="Address_ID" Type="System.Int32" CanBeNull="true" />
+      <Column Name="Family_ID" Type="System.Int32" CanBeNull="false" />
+      <Column Name="Jop" Type="System.String" CanBeNull="true" />
+      <Column Name="IsMarried" Type="System.Boolean" CanBeNull="false" />
+      <Column Name="IsDead" Type="System.Boolean" CanBeNull="false" />
+      <Column Name="Birthday" Type="System.DateTime" CanBeNull="false" />
+      <Column Name="Dieday" Type="System.DateTime" CanBeNull="true" />
+      <Column Name="Salary" Type="System.Decimal" CanBeNull="true" />
+      <Column Name="Photo" Type="System.Byte[]" DbType="varbinary(MAX)" CanBeNull="true" />
+      <Column Name="Note" Type="System.String" CanBeNull="true" />
+      <Column Name="User_ID" Type="System.Int32" CanBeNull="false" />
+      <Column Name="RegDate" Type="System.DateTime" CanBeNull="false" />
+      <Association Name="Name_UnOrphan" Member="Name" ThisKey="Name_ID" OtherKey="ID" Type="Name" IsForeignKey="true" />
+      <Association Name="Address_UnOrphan" Member="Address" ThisKey="Address_ID" OtherKey="ID" Type="Address" IsForeignKey="true" />
+      <Association Name="Family_UnOrphan" Member="Family" ThisKey="Family_ID" OtherKey="ID" Type="Family" IsForeignKey="true" />
+      <Association Name="User_UnOrphan" Member="User" ThisKey="User_ID" OtherKey="ID" Type="User" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

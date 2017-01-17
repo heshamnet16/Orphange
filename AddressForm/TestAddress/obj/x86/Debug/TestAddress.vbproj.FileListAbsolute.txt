@@ -1,0 +1,16 @@
+D:\Programming\Orphanage\AddressForm\TestAddress\bin\Debug\TestAddress.exe
+D:\Programming\Orphanage\AddressForm\TestAddress\bin\Debug\TestAddress.pdb
+D:\Programming\Orphanage\AddressForm\TestAddress\bin\Debug\TestAddress.xml
+D:\Programming\Orphanage\AddressForm\TestAddress\bin\Debug\AddressForm.dll
+D:\Programming\Orphanage\AddressForm\TestAddress\bin\Debug\LangChanger.dll
+D:\Programming\Orphanage\AddressForm\TestAddress\bin\Debug\AddressForm.pdb
+D:\Programming\Orphanage\AddressForm\TestAddress\bin\Debug\AddressForm.xml
+D:\Programming\Orphanage\AddressForm\TestAddress\bin\Debug\LangChanger.pdb
+D:\Programming\Orphanage\AddressForm\TestAddress\bin\Debug\LangChanger.xml
+D:\Programming\Orphanage\AddressForm\TestAddress\obj\x86\Debug\TestAddress.vbprojResolveAssemblyReference.cache
+D:\Programming\Orphanage\AddressForm\TestAddress\obj\x86\Debug\TestAddress.Form1.resources
+D:\Programming\Orphanage\AddressForm\TestAddress\obj\x86\Debug\TestAddress.Resources.resources
+D:\Programming\Orphanage\AddressForm\TestAddress\obj\x86\Debug\TestAddress.vbproj.GenerateResource.Cache
+D:\Programming\Orphanage\AddressForm\TestAddress\obj\x86\Debug\TestAddress.exe
+D:\Programming\Orphanage\AddressForm\TestAddress\obj\x86\Debug\TestAddress.xml
+D:\Programming\Orphanage\AddressForm\TestAddress\obj\x86\Debug\TestAddress.pdb

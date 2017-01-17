@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="urn:OrphanageXML:Templates">
+  <xs:element name="Templates">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Template">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Name" type="xs:string" />
+              <xs:element name="Size" type="xs:string" />
+              <xs:element name ="IsFamily" type="xs:string"/>
+              <xs:element name ="IsBondsManRepeated" type="xs:string"/>
+              <xs:element name ="MaxOorphansCount" type="xs:string"/>
+              <xs:element name="IsBookmarks" type="xs:string" />
+              <xs:element name="UseCustomBoolean" type="xs:string" />
+              <xs:element name="BooleanYesMark" type="xs:string" />
+              <xs:element name="BooleanNOMark" type="xs:string" />
+              <xs:element name="BooleanFontName" type="xs:string" />
+              <xs:element name="Data" type="xs:base64Binary" />
+              <xs:element name="IsSelected" type="xs:string" />
+              <xs:element name="IsDefault" type="xs:string" />
+              <xs:element name="IsDefaultPictureWH" type="xs:string" />
+              <xs:element name="DefaultPictureW" type="xs:string" />
+              <xs:element name="DefaultPictureH" type="xs:string" />
+              <xs:element name="Bookmarks">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Orphan">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="FirstName" type="xs:string" />
+                          <xs:element name="FatherName" type="xs:string" />
+                          <xs:element name="LastName" type="xs:string"/>
+                          <xs:element name="FullName" type="xs:string"/>
+                          <xs:element name="EFirstName" type="xs:string"/>
+                          <xs:element name="EFatherName" type="xs:string"/>
+                          <xs:element name="ELastName" type="xs:string"/>
+                          <xs:element name="EFullName" type="xs:string"/>
+                          <xs:element name="Age" type="xs:string"/>
+                          <xs:element name="Birthday" type="xs:string"/>
+                          <xs:element name="IsStudy" type="xs:string"/>
+                          <xs:element name="Education">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="Stage" type="xs:string"/>
+                                <xs:element name="School" type="xs:string"/>
+                                <xs:element name="Univercity" type="xs:string"/>
+                                <xs:element name="Collage" type="xs:string"/>
+                                <xs:element name="MonthlyCost" type="xs:string"/>
+                                <xs:element name="DegreesRate" type="xs:string"/>
+                                <xs:element name="Reasons" type="xs:string"/>
+                                <xs:element name="Certificate_Photo1" type="xs:string"/>
+                                <xs:element name="Certificate_Photo2" type="xs:string"/>
+                                <xs:element name="Note" type="xs:string"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="IsSick" type="xs:string"/>
+                          <xs:element name="Health" >
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="Name" type="xs:string"/>
+                                <xs:element name="Medicen" type="xs:string"/>
+                                <xs:element name="Cost" type="xs:string"/>
+                                <xs:element name="SupervisorDoctor" type="xs:string"/>
+                                <xs:element name="Note" type="xs:string"/>
+                                <xs:element name="ReporteFile" type="xs:string"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="FullPhoto" type="xs:string"/>
+                          <xs:element name="FacePhoto" type="xs:string"/>
+                          <xs:element name="IdentityNumber" type="xs:string"/>
+                          <xs:element name="FootSize" type="xs:string"/>
+                          <xs:element name="Weight" type="xs:string"/>
+                          <xs:element name="Tallness" type="xs:string"/>
+                          <xs:element name="IsBailed" type="xs:string"/>
+                          <xs:element name="RegDate" type="xs:string"/>
+                          <xs:element name="Story" type="xs:string"/>
+                          <xs:element name="BondsManRel" type="xs:string"/>
+                          <xs:element name="BirthCertificate_Photo" type="xs:string"/>
+                          <xs:element name="FamilyCardPagePhoto" type="xs:string"/>
+                          <xs:element name="Gender" type="xs:string"/>
+                          <xs:element name="Kaid" type="xs:string"/>
+                          <xs:element name="Birthplace" type="xs:string"/>
+                          <xs:element name="BrothersCount" type="xs:string"/>
+                          <xs:element name="MaleBrothersCount" type="xs:string"/>
+                          <xs:element name="FemaleBrothersCount" type="xs:string"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="Father">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="FirstName" type="xs:string"/>
+                          <xs:element name="FatherName" type="xs:string"/>
+                          <xs:element name="LastName" type="xs:string"/>
+                          <xs:element name="FullName" type="xs:string"/>
+                          <xs:element name="EFirstName" type="xs:string"/>
+                          <xs:element name="EFatherName" type="xs:string"/>
+                          <xs:element name="ELastName" type="xs:string"/>
+                          <xs:element name="EFullName" type="xs:string"/>
+                          <xs:element name="Age" type="xs:string"/>
+                          <xs:element name="Birthday" type="xs:string"/>
+                          <xs:element name="Deathday" type="xs:string"/>
+                          <xs:element name="Photo" type="xs:string"/>
+                          <xs:element name="DeathCertificate_Photo" type="xs:string"/>
+                          <xs:element name="Jop" type="xs:string"/>
+                          <xs:element name="Story" type="xs:string"/>
+                          <xs:element name="DeathReason" type="xs:string"/>
+                          <xs:element name="Note" type="xs:string"/>
+                          <xs:element name="IdentityCardNumber" type="xs:string"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="Mother">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="FirstName" type="xs:string"/>
+                          <xs:element name="FatherName" type="xs:string"/>
+                          <xs:element name="LastName" type="xs:string"/>
+                          <xs:element name="FullName" type="xs:string"/>
+                          <xs:element name="EFirstName" type="xs:string"/>
+                          <xs:element name="EFatherName" type="xs:string"/>
+                          <xs:element name="ELastName" type="xs:string"/>
+                          <xs:element name="EFullName" type="xs:string"/>
+                          <xs:element name="Age" type="xs:string"/>
+                          <xs:element name="Birthday" type="xs:string"/>
+                          <xs:element name="Deathday" type="xs:string"/>
+                          <xs:element name="IsDead" type="xs:string"/>
+                          <xs:element name="IdentityCardNumber" type="xs:string"/>
+                          <xs:element name="IdentityCardPhoto1" type="xs:string"/>
+                          <xs:element name="IdentityCardPhoto2" type="xs:string"/>
+                          <xs:element name="Address">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="State" type="xs:string"/>
+                                <xs:element name="City" type="xs:string"/>
+                                <xs:element name="Town" type="xs:string"/>
+                                <xs:element name="Street" type="xs:string"/>
+                                <xs:element name="CellPhone" type="xs:string"/>
+                                <xs:element name="HomePhone" type="xs:string"/>
+                                <xs:element name="WorkPhone" type="xs:string"/>
+                                <xs:element name="Fax" type="xs:string"/>
+                                <xs:element name="Email" type="xs:string"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="IsMarried" type="xs:string"/>
+                          <xs:element name="IsOwnOrphans" type="xs:string"/>
+                          <xs:element name="Jop" type="xs:string"/>
+                          <xs:element name="Salary" type="xs:string"/>
+                          <xs:element name="Note" type="xs:string"/>
+                          <xs:element name="Story" type="xs:string"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="BondsMan">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="FirstName" type="xs:string"/>
+                          <xs:element name="FatherName" type="xs:string"/>
+                          <xs:element name="LastName" type="xs:string"/>
+                          <xs:element name="FullName" type="xs:string"/>
+                          <xs:element name="EFirstName" type="xs:string"/>
+                          <xs:element name="EFatherName" type="xs:string"/>
+                          <xs:element name="ELastName" type="xs:string"/>
+                          <xs:element name="EFullName" type="xs:string"/>
+                          <xs:element name="IdentityCardNumber" type="xs:string"/>
+                          <xs:element name="IdentityCardPhoto1" type="xs:string"/>
+                          <xs:element name="IdentityCardPhoto2" type="xs:string"/>
+                          <xs:element name="Address">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="State" type="xs:string"/>
+                                <xs:element name="City" type="xs:string"/>
+                                <xs:element name="Town" type="xs:string"/>
+                                <xs:element name="Street" type="xs:string"/>
+                                <xs:element name="CellPhone" type="xs:string"/>
+                                <xs:element name="HomePhone" type="xs:string"/>
+                                <xs:element name="WorkPhone" type="xs:string"/>
+                                <xs:element name="Fax" type="xs:string"/>
+                                <xs:element name="Email" type="xs:string"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="Jop" type="xs:string"/>
+                          <xs:element name="Salary" type="xs:string"/>
+                          <xs:element name="Note" type="xs:string"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="Family">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="FamilyCardPhoto1" type="xs:string"/>
+                          <xs:element name="FamilyCardPhoto2" type="xs:string"/>
+                          <xs:element name="Address">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="Current">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="State" type="xs:string"/>
+                                      <xs:element name="City" type="xs:string"/>
+                                      <xs:element name="Town" type="xs:string"/>
+                                      <xs:element name="Street" type="xs:string"/>
+                                      <xs:element name="CellPhone" type="xs:string"/>
+                                      <xs:element name="HomePhone" type="xs:string"/>
+                                      <xs:element name="WorkPhone" type="xs:string"/>
+                                      <xs:element name="Fax" type="xs:string"/>
+                                      <xs:element name="Email" type="xs:string"/>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="Main">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="State" type="xs:string"/>
+                                      <xs:element name="City" type="xs:string"/>
+                                      <xs:element name="Town" type="xs:string"/>
+                                      <xs:element name="Street" type="xs:string"/>
+                                      <xs:element name="CellPhone" type="xs:string"/>
+                                      <xs:element name="HomePhone" type="xs:string"/>
+                                      <xs:element name="WorkPhone" type="xs:string"/>
+                                      <xs:element name="Fax" type="xs:string"/>
+                                      <xs:element name="Email" type="xs:string"/>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="IsRefugee" type="xs:string"/>
+                          <xs:element name="FamilyCardNumber" type="xs:string"/>
+                          <xs:element name="FinnacialState" type="xs:string"/>
+                          <xs:element name="ResidenceState" type="xs:string"/>
+                          <xs:element name="ResidenceType" type="xs:string"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="Bail">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="Supporter">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="FirstName" type="xs:string"/>
+                                <xs:element name="FatherName" type="xs:string"/>
+                                <xs:element name="LastName" type="xs:string"/>
+                                <xs:element name="FullName" type="xs:string"/>
+                                <xs:element name="EFirstName" type="xs:string"/>
+                                <xs:element name="EFatherName" type="xs:string"/>
+                                <xs:element name="ELastName" type="xs:string"/>
+                                <xs:element name="EFullName" type="xs:string"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="Amount" type="xs:string"/>
+                          <xs:element name="CurnceyShort" type="xs:string"/>
+                          <xs:element name="CurnceyName" type="xs:string"/>
+                          <xs:element name="IsFamily" type="xs:string"/>
+                          <xs:element name="IsDated" type="xs:string"/>
+                          <xs:element name="StartDate" type="xs:string"/>
+                          <xs:element name="EndDate" type="xs:string"/>
+                          <xs:element name="IsMonthly" type="xs:string"/>
+                          <xs:element name="Note" type="xs:string"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

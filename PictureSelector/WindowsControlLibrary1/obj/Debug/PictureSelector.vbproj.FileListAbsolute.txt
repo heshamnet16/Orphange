@@ -1,0 +1,9 @@
+c:\users\toshiba\documents\visual studio 2010\Projects\WindowsControlLibrary1\WindowsControlLibrary1\bin\Debug\PictureSelector.dll
+c:\users\toshiba\documents\visual studio 2010\Projects\WindowsControlLibrary1\WindowsControlLibrary1\bin\Debug\PictureSelector.pdb
+c:\users\toshiba\documents\visual studio 2010\Projects\WindowsControlLibrary1\WindowsControlLibrary1\bin\Debug\PictureSelector.xml
+c:\users\toshiba\documents\visual studio 2010\Projects\WindowsControlLibrary1\WindowsControlLibrary1\obj\Debug\PictureSelector.Resources.resources
+c:\users\toshiba\documents\visual studio 2010\Projects\WindowsControlLibrary1\WindowsControlLibrary1\obj\Debug\PictureSelector.PictureSelector.resources
+c:\users\toshiba\documents\visual studio 2010\Projects\WindowsControlLibrary1\WindowsControlLibrary1\obj\Debug\PictureSelector.vbproj.GenerateResource.Cache
+c:\users\toshiba\documents\visual studio 2010\Projects\WindowsControlLibrary1\WindowsControlLibrary1\obj\Debug\PictureSelector.dll
+c:\users\toshiba\documents\visual studio 2010\Projects\WindowsControlLibrary1\WindowsControlLibrary1\obj\Debug\PictureSelector.xml
+c:\users\toshiba\documents\visual studio 2010\Projects\WindowsControlLibrary1\WindowsControlLibrary1\obj\Debug\PictureSelector.pdb

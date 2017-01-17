@@ -1,0 +1,2 @@
+D:\Programming\Orphanage\OrphansBackup\Install\bin\x64\Release\Install.exe
+D:\Programming\Orphanage\OrphansBackup\Install\obj\x64\Release\Install.exe

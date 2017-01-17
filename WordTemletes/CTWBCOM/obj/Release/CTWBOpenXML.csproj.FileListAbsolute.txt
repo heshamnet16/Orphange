@@ -1,0 +1,4 @@
+D:\Programming\Orphanage\WordTemletes\CTWBOpenXML\bin\Release\CTWBOpenXML.dll
+D:\Programming\Orphanage\WordTemletes\CTWBOpenXML\bin\Release\CTWBOpenXML.pdb
+D:\Programming\Orphanage\WordTemletes\CTWBOpenXML\obj\Release\CTWBOpenXML.dll
+D:\Programming\Orphanage\WordTemletes\CTWBOpenXML\obj\Release\CTWBOpenXML.pdb

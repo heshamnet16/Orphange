@@ -1,0 +1,13 @@
+D:\Programming\Orphanage\ToolboxControl1\ToolboxControl1\bin\Debug\ToolboxControl1.dll
+D:\Programming\Orphanage\ToolboxControl1\ToolboxControl1\bin\Debug\ToolboxControl1.pdb
+D:\Programming\Orphanage\ToolboxControl1\ToolboxControl1\bin\Debug\ToolboxControl1.pkgdef
+D:\Programming\Orphanage\ToolboxControl1\ToolboxControl1\bin\Debug\ToolboxControl1.vsix
+D:\Programming\Orphanage\ToolboxControl1\ToolboxControl1\bin\Debug\extension.vsixmanifest
+D:\Programming\Orphanage\ToolboxControl1\ToolboxControl1\obj\Debug\ToolboxControl1.Resources.resources
+D:\Programming\Orphanage\ToolboxControl1\ToolboxControl1\obj\Debug\ToolboxControl1.ToolboxControl.resources
+D:\Programming\Orphanage\ToolboxControl1\ToolboxControl1\obj\Debug\ToolboxControl1.vbproj.GenerateResource.Cache
+D:\Programming\Orphanage\ToolboxControl1\ToolboxControl1\obj\Debug\ToolboxControl1.dll
+D:\Programming\Orphanage\ToolboxControl1\ToolboxControl1\obj\Debug\ToolboxControl1.pdb
+D:\Programming\Orphanage\ToolboxControl1\ToolboxControl1\obj\Debug\ToolboxControl1.pkgdef
+D:\Programming\Orphanage\ToolboxControl1\ToolboxControl1\obj\Debug\ToolboxControl1.latest.pkgdef
+D:\Programming\Orphanage\ToolboxControl1\ToolboxControl1\obj\Debug\extension.vsixmanifest
