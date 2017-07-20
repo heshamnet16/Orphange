@@ -24,3 +24,15 @@ F:\Programming\Orphanage\AddressForm\AddressForm\obj\Release\AddressForm.vbproj.
 F:\Programming\Orphanage\AddressForm\AddressForm\obj\Release\AddressForm.dll
 F:\Programming\Orphanage\AddressForm\AddressForm\obj\Release\AddressForm.xml
 F:\Programming\Orphanage\AddressForm\AddressForm\obj\Release\AddressForm.pdb
+C:\Users\Admin\Source\Repos\Orphange\AddressForm\AddressForm\bin\Release\AddressForm.dll
+C:\Users\Admin\Source\Repos\Orphange\AddressForm\AddressForm\bin\Release\AddressForm.pdb
+C:\Users\Admin\Source\Repos\Orphange\AddressForm\AddressForm\bin\Release\AddressForm.xml
+C:\Users\Admin\Source\Repos\Orphange\AddressForm\AddressForm\bin\Release\Telerik.WinControls.dll
+C:\Users\Admin\Source\Repos\Orphange\AddressForm\AddressForm\bin\Release\Telerik.WinControls.UI.dll
+C:\Users\Admin\Source\Repos\Orphange\AddressForm\AddressForm\bin\Release\TelerikCommon.dll
+C:\Users\Admin\Source\Repos\Orphange\AddressForm\AddressForm\obj\Release\AddressForm.Resources.resources
+C:\Users\Admin\Source\Repos\Orphange\AddressForm\AddressForm\obj\Release\AddressForm.AddressForm.resources
+C:\Users\Admin\Source\Repos\Orphange\AddressForm\AddressForm\obj\Release\AddressForm.vbproj.GenerateResource.Cache
+C:\Users\Admin\Source\Repos\Orphange\AddressForm\AddressForm\obj\Release\AddressForm.dll
+C:\Users\Admin\Source\Repos\Orphange\AddressForm\AddressForm\obj\Release\AddressForm.xml
+C:\Users\Admin\Source\Repos\Orphange\AddressForm\AddressForm\obj\Release\AddressForm.pdb

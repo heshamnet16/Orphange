@@ -28,7 +28,7 @@ Partial Class Form1
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(94, 12)
+        Me.Button1.Location = New System.Drawing.Point(12, 12)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(102, 262)
         Me.Button1.TabIndex = 1
@@ -38,21 +38,22 @@ Partial Class Form1
         'AddressForm1
         '
         Me.AddressForm1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.AddressForm1.CellPhone = "(0944)000-000"
+        Me.AddressForm1.CellPhone = "(0933)000-000"
         Me.AddressForm1.City = ""
         Me.AddressForm1.Country = ""
         Me.AddressForm1.Email = ""
         Me.AddressForm1.Facebook = ""
         Me.AddressForm1.Fax = "(031)0000-000"
+        Me.AddressForm1.HideOnEnter = False
         Me.AddressForm1.HomePhone = "(031)0000-000"
-        Me.AddressForm1.Location = New System.Drawing.Point(202, 12)
+        Me.AddressForm1.Location = New System.Drawing.Point(120, 12)
         Me.AddressForm1.MoveFactor = 10
-        Me.AddressForm1.MoveType = AddressForm.AddressForm._MoveType.DownToUp
+        Me.AddressForm1.MoveType = AddressForm.AddressForm._MoveType.RightToLeft
         Me.AddressForm1.Name = "AddressForm1"
         Me.AddressForm1.Note = ""
         Me.AddressForm1.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.AddressForm1.ShowMovement = False
-        Me.AddressForm1.Size = New System.Drawing.Size(416, 262)
+        Me.AddressForm1.Size = New System.Drawing.Size(390, 262)
         Me.AddressForm1.Skype = ""
         Me.AddressForm1.Street = ""
         Me.AddressForm1.TabIndex = 0
